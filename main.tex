@@ -8,10 +8,13 @@
 \newcommand{\subsectiontitlepage}[1]{%
   \clearpage
   \refstepcounter{subsection}%
-  \phantomsection\addcontentsline{toc}{subsection}{\thesubsection\quad #1}%
+  \phantomsection
+  % ToC: mit Nummer; Bookmark (Seitenleiste): ohne Nummer
+  \addcontentsline{toc}{subsection}
+    {\texorpdfstring{\protect\numberline{\thesubsection}#1}{#1}}
   \vspace*{\fill}
   \begin{center}
-    {\huge\bfseries \thesubsection\quad #1\par}
+    {\huge\bfseries \thesubsection\quad #1\par} % Nummer auf der Seite behalten
   \end{center}
   \vspace*{\fill}
   \clearpage
@@ -659,7 +662,23 @@ Damit wird höchste Datensouveränität gewährleistet und die Einhaltung der Da
     20.09.2025 & 5:00:00 & Implementierung   & ESP32 WebSocket Client Test mit C\# Backend \\ \hline
     22.09.2025 & 3:00:00 & Projektmanagement & Jira-Setup und erste User-Stories erstellt \\ \hline
     23.09.2025 & 2:00:00 & Implementierung   & ESP32 WIFI-AP Firmware \\ \hline
-    \rowcolor{black!10}\textbf{Summe} & \textbf{32:00:00} & & \\ \hline
+    23.09.2025 & 2:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    24.09.2025 & 3:00:00 & Implementierung   & ESP32 WIFI-AP DHCP + Testing \\ \hline
+    25.09.2025 & 2:00:00 & Meeting           & Umsetzung von Techstack \\ \hline
+    26.09.2025 & 2:30:00 & Projektmanagement & Jira Board Besprechung \\ \hline
+    02.10.2025 & 2:00:00 & Implementierung   & TimescaleDB Setup + Testing \\ \hline
+    03.10.2025 & 1:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    04.10.2025 & 2:00:00 & Implementierung   & First Entity definition + First Endpoints Created \\ \hline
+    07.10.2025 & 3:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    10.10.2025 & 1:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    14.10.2025 & 2:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    15.10.2025 & 1:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    15.10.2025 & 2:30:00 & Projektmanagement & Jira Tasks (Techstack, Architecture) \\ \hline
+    16.10.2025 & 2:30:00 & Projektmanagement & Jira Tasks (KPIs, Version Mangement) \\ \hline
+    17.10.2025 & 1:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    17.10.2025 & 2:00:00 & Meeting           & Playbook Besprechung \\ \hline
+    20.10.2025 & 3:30:00 & Projektmanagement & Jira Tasks (Techstack, Architecture) überarbeitet \\ \hline
+    \rowcolor{black!10}\textbf{Summe} & \textbf{65:00:00} & & \\ \hline
   \end{tabularx}
   \caption{Zeitaufzeichnung – Matthias Gregorich}
   \label{tab:zeit-matthias}
@@ -687,7 +706,23 @@ Damit wird höchste Datensouveränität gewährleistet und die Einhaltung der Da
     17.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
     19.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
     22.09.2025 & 3:00:00 & Projektmanagement & Jira-Setup und erste User-Stories erstellt \\ \hline
-    \rowcolor{black!10}\textbf{Summe} & \textbf{24:00:00} & & \\ \hline
+    23.09.2025 & 2:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    25.09.2025 & 2:00:00 & Meeting           & Umsetzung von Techstack \\ \hline
+    26.09.2025 & 2:30:00 & Projektmanagement & Jira Board Besprechung \\ \hline
+    30.09.2025 & 2:30:00 & Research          & Playbook (SWOT, Canva Visio, Stakeholder, PE) \\ \hline
+    03.10.2025 & 1:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    05.10.2025 & 3:00:00 & Implementierung   & Figma Mockup \\ \hline
+    07.10.2025 & 3:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    10.10.2025 & 1:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    14.10.2025 & 2:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    15.10.2025 & 1:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    17.10.2025 & 1:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    17.10.2025 & 2:00:00 & Meeting           & Playbook Besprechung \\ \hline
+    18.10.2025 & 3:00:00 & Projektmanagement & Jira Tasks (Responsibilities, SWOT, Project Environment Analysis) \\ \hline
+    19.10.2025 & 3:00:00 & Projektmanagement & Jira Tasks (Stakeholder, Deadlines) \\ \hline
+    20.10.2025 & 5:00:00 & Projektmanagement & Meetingprotokolle aufbereiten, Projekt-Logo, Playbook schreiben \\ \hline
+    20.10.2025 & 3:00:00 & Projektmanagement & Post Kickoff Präsentation \\ \hline
+    \rowcolor{black!10}\textbf{Summe} & \textbf{60:30:00} & & \\ \hline
   \end{tabularx}
   \caption{Zeitaufzeichnung – Daniel Nebel}
   \label{tab:zeit-daniel}
@@ -712,7 +747,23 @@ Damit wird höchste Datensouveränität gewährleistet und die Einhaltung der Da
     16.09.2025 & 2:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
     17.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
     19.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
-    \rowcolor{black!10}\textbf{Summe} & \textbf{18:00:00} & & \\ \hline
+    23.09.2025 & 2:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    25.09.2025 & 2:00:00 & Meeting           & Umsetzung von Techstack \\ \hline
+    26.09.2025 & 2:30:00 & Projektmanagement & Jira Board Besprechung \\ \hline
+    27.09.2025 & 1:00:00 & Research          & Umsetzung von Techstack \\ \hline
+    03.10.2025 & 1:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    07.10.2025 & 3:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    10.10.2025 & 1:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    14.10.2025 & 2:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    15.10.2025 & 1:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    15.10.2025 & 2:30:00 & Projektmanagement & Jira Tasks (Techstack, Architecture) \\ \hline
+    16.10.2025 & 2:30:00 & Projektmanagement & Jira Tasks (KPIs, Version Mangement) \\ \hline
+    17.10.2025 & 1:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    17.10.2025 & 2:00:00 & Meeting           & Playbook Besprechung \\ \hline
+    18.10.2025 & 8:00:00 & Projektmanagement & Playbook schreiben \\ \hline
+    20.10.2025 & 6:00:00 & Projektmanagement & Playbook schreiben \\ \hline
+    21.10.2025 & 2:30:00 & Projektmanagement & Playbook schreiben \\ \hline
+    \rowcolor{black!10}\textbf{Summe} & \textbf{61:00:00} & & \\ \hline
   \end{tabularx}
   \caption{Zeitaufzeichnung – Viktor Novak}
   \label{tab:zeit-viktor}
@@ -738,7 +789,21 @@ Damit wird höchste Datensouveränität gewährleistet und die Einhaltung der Da
     17.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
     19.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
     22.09.2025 & 3:00:00 & Research          & Vorstudie Sensoren \\ \hline
-    \rowcolor{black!10}\textbf{Summe} & \textbf{21:00:00} & & \\ \hline
+    23.09.2025 & 2:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    23.09.2025 & 3:00:00 & Implementierung   & Planung Sensorgehäuse \\ \hline
+    27.09.2025 & 2:00:00 & Implementierung   & Planung Sensorgehäuse \\ \hline
+    03.10.2025 & 1:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    03.10.2025 & 3:00:00 & Implementierung   & ESP32 Sensor Chip Test \\ \hline
+    07.10.2025 & 3:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    10.10.2025 & 1:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    14.10.2025 & 2:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    15.10.2025 & 1:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    17.10.2025 & 1:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    17.10.2025 & 2:00:00 & Implementierung   & ESP32 Sensor Chip Test \\ \hline
+    19.10.2025 & 3:00:00 & Projektmanagement & Jira Tasks (Ressources Stored, Requirements Definition, Collaboration Approach) \\ \hline
+    20.10.2025 & 2:00:00 & Projektmanagement & Jira Tasks (Ressources Stored, Requirements Definition, Collaboration Approach) \\ \hline
+    20.10.2025 & 3:00:00 & Projektmanagement & Post Kickoff Präsentation \\ \hline
+    \rowcolor{black!10}\textbf{Summe} & \textbf{50:00:00} & & \\ \hline
   \end{tabularx}
   \caption{Zeitaufzeichnung – Damjan Petrovic}
   \label{tab:zeit-damjan}
@@ -763,7 +828,21 @@ Damit wird höchste Datensouveränität gewährleistet und die Einhaltung der Da
     16.09.2025 & 2:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
     17.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
     19.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
-    \rowcolor{black!10}\textbf{Summe} & \textbf{18:00:00} & & \\ \hline
+    23.09.2025 & 2:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    27.09.2025 & 1:00:00 & Research          & Umsetzung von Techstack \\ \hline
+    03.10.2025 & 1:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    05.10.2025 & 3:00:00 & Implementierung   & Figma Mockup \\ \hline
+    07.10.2025 & 3:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    10.10.2025 & 1:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    14.10.2025 & 2:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    15.10.2025 & 1:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    17.10.2025 & 1:00:00 & Implementierung   & Unterricht Vorstudie, Development \\ \hline
+    17.10.2025 & 2:00:00 & Meeting           & Playbook Besprechung \\ \hline
+    19.10.2025 & 2:00:00 & Projektmanagement & Jira Tasks (Project Health, Ceremonies und Definition of Done) \\ \hline
+    20.10.2025 & 3:00:00 & Projektmanagement & Jira Tasks (Sprintparameter) \\ \hline
+    20.10.2025 & 3:00:00 & Projektmanagement & Post Kickoff Präsentation \\ \hline
+    21.10.2025 & 1:30:00 & Projektmanagement & Playbook schreiben \\ \hline
+    \rowcolor{black!10}\textbf{Summe} & \textbf{44:30:00} & & \\ \hline
   \end{tabularx}
   \caption{Zeitaufzeichnung – Marc Schneeweis}
   \label{tab:zeit-marc}
