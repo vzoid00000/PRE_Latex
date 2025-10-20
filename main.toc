@@ -1,0 +1,38 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Product}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Definition of Done}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Deadlines}{1}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Partner}{1}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}UI-Mockups}{2}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Requirements Definition}{4}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Collaboration Approach}{4}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Resources Stored}{4}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Product KPIs}{4}{subsection.1.8}%
+\contentsline {paragraph}{Dashboard-Ladezeit}{4}{section*.2}%
+\contentsline {paragraph}{Database Query Time Latency (1 Temp/Tag/Raum)}{4}{section*.3}%
+\contentsline {paragraph}{Test Success Rate}{4}{section*.4}%
+\contentsline {subsection}{\numberline {1.9}System Architecture}{4}{subsection.1.9}%
+\contentsline {subsection}{\numberline {1.10}Tech Stack}{5}{subsection.1.10}%
+\contentsline {section}{\numberline {2}Project}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Sprints}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Kanban-Board}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Project KPIs}{7}{subsection.2.3}%
+\contentsline {paragraph}{Spillover-Rate}{7}{section*.5}%
+\contentsline {paragraph}{Meilensteinpünktlichkeit}{7}{section*.6}%
+\contentsline {paragraph}{Teamzufriedenheit}{7}{section*.7}%
+\contentsline {subsection}{\numberline {2.4}Stakeholder Analysis}{8}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Responsibilities}{9}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Project Health Monitors}{10}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}SWOT Analysis}{11}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Earned Value Analysis}{12}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Project Environment Analysis}{12}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Ceremonies}{12}{subsection.2.10}%
+\contentsline {section}{\numberline {3}Development}{12}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Version Management Approach}{12}{subsection.3.1}%
+\contentsline {subsubsection}{Branches}{12}{section*.8}%
+\contentsline {section}{\numberline {4}Attachments}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Compliance Guidelines}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Meeting Protocols}{13}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Time Records}{14}{subsection.4.3}%
+\contentsline {subsection}{4.4\hskip 1em\relax Cooperation Contract}{17}{section*.14}%
+\contentsline {subsection}{4.5\hskip 1em\relax Legal Declaration}{18}{section*.15}%

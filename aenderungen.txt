@@ -1,0 +1,20 @@
+Compliance Guidelines nochmal drüberschauen
+Meeting Protokolle faken
+bei resources stored, available to the stakeholders, halt eben nicht das fehlt noch
+requirements definition dieser IEEE brainrot
+dokument versionisierung unten rechts in footer v1.0
+Earned Value Analysis ganz am schluss machen, Diagram + Text beschreibung
+Bei UI-Mocks bei Abbildungsbeschreibung erwähnen, dass es die Landing page ist
+Stakeholder Mapping, einen Beschreibungstext
+Cermonies, was tun wenn jemand krank ist und wenn einer nicht da ist beim meeting, wie er die nachrichten usw erfährt
+Punkt 3 Auflösen
+
+
+Hier ein diagram in Sprint hinein
+Montag alle 3 wochen sprint start/ planung
+Freitag Standup jede woche
+Sonntag letze Woche Retro/Review
+
+
+
+

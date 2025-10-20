@@ -1,0 +1,784 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{pdfpages}
+\usepackage{hyperref}
+
+
+\newcommand{\subsectiontitlepage}[1]{%
+  \clearpage
+  \refstepcounter{subsection}%
+  \phantomsection\addcontentsline{toc}{subsection}{\thesubsection\quad #1}%
+  \vspace*{\fill}
+  \begin{center}
+    {\huge\bfseries \thesubsection\quad #1\par}
+  \end{center}
+  \vspace*{\fill}
+  \clearpage
+}
+
+\newcounter{savepage}
+\newcommand{\includepdfnopagenum}[2][]{%
+  \begingroup
+    \setcounter{savepage}{\value{page}}%
+    \includepdf[pagecommand={\thispagestyle{empty}},#1]{#2}%
+    \setcounter{page}{\value{savepage}}%
+  \endgroup
+}
+
+\usepackage{float}
+\usepackage[ngerman]{babel}
+
+\addto\captionsngerman{%
+  \renewcommand{\figurename}{Abb.}%
+}
+
+\addto\captionsngerman{%
+  \renewcommand{\tablename}{Tab.}% 
+}
+
+\usepackage{microtype}
+
+\usepackage[letterpaper, top=1.0in, bottom=1.0in, left=1.0in, right=1.0in, heightrounded]{geometry}
+
+\usepackage{enumitem}
+\setlist[itemize]{left=1.5em,topsep=2pt,itemsep=3pt,parsep=0pt}
+\setlist[enumerate]{left=1.5em,topsep=2pt,itemsep=2pt}
+
+\usepackage{svg}
+
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage[table,xcdraw]{xcolor}
+\renewcommand{\arraystretch}{1.2}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes, arrows, positioning, calc}
+
+\tikzset{
+  block/.style = {draw, rounded corners, align=center, minimum width=2.5cm, minimum height=1cm},
+  arrow/.style = {->, thick}
+}
+
+\usepackage{titling}
+\pretitle{%
+  \vspace*{0.2\textheight}
+  \centering
+  \includegraphics[width=0.8\textwidth]{SensorBear_Logo.png}\\[4mm]
+  \LARGE
+}
+\posttitle{\par\vspace{8mm}}
+\preauthor{\centering\Large}
+\postauthor{\par\vspace{8mm}}
+\predate{\centering\Large}
+\postdate{\par}
+
+
+\usepackage[hidelinks]{hyperref}
+\usepackage{bookmark}
+\hypersetup{
+  pdftitle={Project Management Report},
+  pdfauthor={Matthias Gregorich, Daniel Nebel, Viktor Novak, Damjan Petrovic, Marc Schneeweis},
+  pdfcreator={LaTeX},
+  pdfborder={0 0 0}
+}
+
+\newcommand{\branch}[1]{\texttt{#1}}
+
+\title{Project Management Report}
+\author{Matthias~Gregorich\\Daniel~Nebel\\Viktor~Novak\\Damjan~Petrovic\\Marc~Schneeweis}
+\date{21.10.2025}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\clearpage
+
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{2}
+
+\pagenumbering{roman}
+\tableofcontents
+\clearpage
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+
+
+
+\section{Product}
+\subsection{Definition of Done}
+Dieses Projekt ist fertig so bald Bearingpoint die vollständig funktionsfähigen ESP32 Geräte hat, die alle spezifizierten Funktionen gemäß den technischen Anforderungen erfüllen, erfolgreich durch das Backend mit den verschiedenen Frontends (Web, Mobile, Desktop) kommunizieren und alle Meilensteile bereits erreicht und dokumentiert worden sind und das Projekt spätestens am 8. April 2026 abgeschlossen ist.
+
+\subsection{Deadlines}
+\begin{figure}[H]
+  \centering
+  \includesvg[width=\textwidth]{DeadlinesTimelineCycle}
+  \caption{Deadlines-Übersicht}
+  \label{fig:deadlines}
+\end{figure}
+
+
+
+\subsection{Partner}
+
+\begin{figure}[h]
+  \centering
+  \includesvg[width=0.45\textwidth]{BearingPoint_logo} 
+  \caption{Logo von BearingPoint}
+  \label{fig:bearingpoint-logo}
+\end{figure}
+
+
+\noindent
+Der Partner und Auftraggeber dieses Projekts ist \textbf{BearingPoint}, eine international tätige Management- und Technologieberatung mit europäischen Wurzeln. 
+Sie unterstützt Unternehmen und den öffentlichen Sektor bei Strategie, Transformation und der Umsetzung digitaler Lösungen. 
+Schwerpunkte sind \emph{Data \& Analytics}, \emph{Cloud/Software Engineering}, \emph{Finance \& Risk}, \emph{Supply Chain \& Operations}, \emph{Customer \& Growth} sowie \emph{Regulierung und Compliance}. 
+BearingPoint verbindet Beratung mit eigenen IP-basierten Lösungen und arbeitet mit Technologiepartnern wie SAP, Microsoft und Salesforce zusammen – von der Idee bis zum skalierbaren Betrieb. 
+Betreute Branchen sind u.\,a.\ Finanzdienstleistungen, Automotive/Fertigung, Telekommunikation, Energie/Versorger, Transport/Logistik sowie der öffentliche Sektor.
+
+
+
+\subsection{UI-Mockups}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{UI_Mockup_Web.png}
+  \caption{UI-Mockup für die Web-Version}
+  \label{fig:ui-mockup-web}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth, height=0.9\textheight, keepaspectratio]{UI_Mockup_IOS.png}
+  \caption{UI-Mockup für die IOS-Version}
+  \label{fig:ui-mockup-ios}
+\end{figure}
+
+
+
+
+\subsection{Requirements Definition}
+
+\subsection{Collaboration Approach}
+
+\subsection{Resources Stored}
+
+
+
+
+
+
+
+\subsection{Product KPIs}
+
+\paragraph{Dashboard-Ladezeit}
+\paragraph{Database Query Time Latency (1 Temp/Tag/Raum)}
+\paragraph{Test Success Rate}
+
+
+
+
+
+\subsection{System Architecture}
+
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}[
+    node distance=2cm and 2.5cm,
+    block/.style={draw, rounded corners, align=center, minimum width=2.5cm, minimum height=1cm},
+    arrow/.style={<->, thick}
+  ]
+
+    \node[block, fill=green!25] (ap) {Access Point\\(ESP32, DHCP, WLAN)};
+
+    \node[block, fill=red!20, right=1.8cm of ap] (api) {API};
+    \node[block, fill=blue!30, right=1.8cm of api] (db) {DB};
+
+    \node[block, fill=blue!10, above left=2.2cm and 1cm of ap] (mobile) {Mobile};
+    \node[block, fill=blue!10, above=2.2cm of ap] (desktop) {Desktop};
+    \node[block, fill=blue!10, above right=2.2cm and 1cm of ap] (website) {Website};
+
+    \node[block, fill=yellow!30, below left=2.2cm and 1cm of ap] (sensor1) {ESP32\\+ Sensoren\\1};
+    \node[block, fill=yellow!30, below right=2.2cm and 1cm of ap] (sensorN) {ESP32\\+ Sensoren\\n};
+    \node[below=3cm of ap, text=black] (dots) {\Large $\cdots$};
+
+    \coordinate (ap-top-left)  at ($(ap.north) + (-0.9,0)$);
+    \coordinate (ap-top-mid)   at ($(ap.north)$);
+    \coordinate (ap-top-right) at ($(ap.north) + (0.9,0)$);
+    \coordinate (ap-bot-left)  at ($(ap.south) + (-0.9,0)$);
+    \coordinate (ap-bot-mid)   at ($(ap.south)$);
+    \coordinate (ap-bot-right) at ($(ap.south) + (0.9,0)$);
+
+    \draw[arrow] (mobile.south)  -- (ap-top-left);
+    \draw[arrow] (desktop.south) -- (ap-top-mid);
+    \draw[arrow] (website.south) -- (ap-top-right);
+
+    \draw[arrow] (sensor1.north) -- (ap-bot-left);
+    \draw[arrow] (sensorN.north) -- (ap-bot-right);
+
+    \draw[arrow] (ap.east) -- (api.west);
+    \draw[arrow] (api.east) -- (db.west);
+
+  \end{tikzpicture}
+
+  \caption{Übersicht der System Architecture.}
+  \label{fig:architecture}
+\end{figure}
+
+
+
+\begin{description}[leftmargin=2.5cm,style=nextline]
+
+  \item[Frontend (Mobile, Desktop, Website)] 
+  Dient als Benutzerschnittstelle des Systems. 
+  Läuft auf mobilen Geräten, Desktop oder im Webbrowser und greift über das lokale Netzwerk auf die API zu. 
+  REST-Anfragen liefern Konfiguration und historische Daten, WebSocket-Verbindungen Echtzeitwerte.
+
+  \item[Access Point (ESP32, DHCP, WLAN)] 
+  Der ESP32-basierte Access Point stellt das lokale, WPA2-gesicherte WLAN bereit und fungiert als DHCP-Server. 
+  Er verbindet Sensorgeräte, Frontends und Backend-Komponenten innerhalb des geschlossenen Netzwerks.
+
+  \item[API (Application Programming Interface)] 
+  Verarbeitet Anfragen der Frontends und Daten der Sensorgeräte und kommuniziert mit der Datenbank. 
+  Stellt eine REST-Schnittstelle für Abfragen und eine WebSocket-Schnittstelle für Live-Updates bereit.
+
+  \item[Datenbank (DB)] 
+  Speichert Messwerte, Raum- und Gerätemetadaten und wird ausschließlich über die API angesprochen.
+  
+  \item[ESP32 + Sensoren] 
+  Jede Messstation besteht aus mindestens einem ESP32-Gerät, der mit bis zu vier Sensoren (z.\,B. Temperatur, CO\textsubscript{2}, Luftfeuchtigkeit, Schalldruck) ausgestattet sein kann. 
+  Der ESP32 erfasst die verfügbaren Messwerte und überträgt sie kontinuierlich oder ereignisgesteuert über den Access Point an die API.
+
+\end{description}
+
+\subsection{Tech Stack}
+
+\newcommand{\cardW}{8.0cm}
+\newcommand{\cardH}{3.2cm}
+\newcommand{\radius}{0.6cm}
+\newcommand{\logoH}{2.2cm}
+\newcommand{\gapX}{1.0cm}
+\newcommand{\gapY}{1.3cm}
+\newcommand{\padX}{0.8cm}
+\newcommand{\dbMaxW}{3.2cm}
+\newcommand{\titleLift}{0.4cm}
+
+\newcommand{\tightMaxW}{3.0cm}
+\newcommand{\tightPadX}{0.5cm}
+\pgfmathsetlengthmacro{\singleW}{2*\tightPadX+\tightMaxW}
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[scale=0.75, every node/.style={transform shape}]
+  \node[font=\bfseries] at (-0.5*\cardW-0.5*\gapX, 0) {Firmware};
+  \node[font=\bfseries] at ( 0.5*\cardW+0.5*\gapX, 0) {Backend};
+
+  \node[draw, rounded corners=\radius, line width=0.9pt,
+        minimum width=\cardW, minimum height=\cardH, anchor=north] (fw)
+        at (-0.5*\cardW-0.5*\gapX, -0.7) {};
+
+  \node[draw, rounded corners=\radius, line width=0.9pt,
+        minimum width=\cardW, minimum height=\cardH, anchor=north] (be)
+        at ( 0.5*\cardW+0.5*\gapX, -0.7) {};
+
+  \node[draw, rounded corners=\radius, line width=0.9pt,
+        minimum width=\singleW, minimum height=\cardH, anchor=north west] (de)
+        at ($(be.north east)+(\gapX,0)$) {};
+  \node[font=\bfseries, anchor=south] at ($(de.north)+(0,\titleLift)$) {Desktop -- Frontend};
+
+  \node at ([xshift=-.25*\cardW]fw.center) {\includegraphics[height=\logoH]{CPP_logo.png}};
+  \node at ([xshift= .25*\cardW]fw.center) {\includegraphics[height=\logoH]{ESPRESSIF_logo.png}};
+
+  \node at ([xshift=-.25*\cardW]be.center) {\includesvg[height=\logoH]{CS_logo}};
+  \node at ([xshift= .25*\cardW]be.center) {\includesvg[height=\logoH]{ASP_NET_logo}};
+
+  \node at (de.center) {\includegraphics[height=\logoH, width=\tightMaxW, keepaspectratio]{Electron_logo.png}};
+
+  \node[draw, rounded corners=\radius, line width=0.9pt,
+        minimum width=\cardW, minimum height=\cardH, anchor=north] (db)
+        at ($(fw.south)+(0,-\gapY)$) {};
+  \node[font=\bfseries, anchor=south] at ($(db.north)+(0,\titleLift)$) {Database};
+  \node[inner sep=0, anchor=west] at ([xshift=-\cardW/2+\padX]db.center)
+        {\includegraphics[height=\logoH, width=\dbMaxW, keepaspectratio]{PostgresSQL_logo.png}};
+  \node[inner sep=0, anchor=east] at ([xshift=\cardW/2-\padX]db.center)
+        {\includegraphics[height=\logoH, width=\dbMaxW, keepaspectratio]{Timescale_logo.png}};
+
+  \node[draw, rounded corners=\radius, line width=0.9pt,
+        minimum width=\cardW, minimum height=\cardH, anchor=north] (fe)
+        at ($(be.south)+(0,-\gapY)$) {};
+  \node[font=\bfseries, anchor=south] at ($(fe.north)+(0,\titleLift)$) {Web -- Frontend};
+  \node[inner sep=0, anchor=west] at ([xshift=-\cardW/2+\padX]fe.center)
+        {\includegraphics[height=\logoH, width=\dbMaxW, keepaspectratio]{NEXTJS_logo.png}};
+  \node[inner sep=0, anchor=east] at ([xshift=\cardW/2-\padX]fe.center)
+        {\includegraphics[height=\logoH, width=\dbMaxW, keepaspectratio]{Material_UI_logo.png}};
+
+  \node[draw, rounded corners=\radius, line width=0.9pt,
+        minimum width=\singleW, minimum height=\cardH, anchor=north] (ios)
+        at ($(de.south)+(0,-\gapY)$) {};
+  \node[font=\bfseries, anchor=south] at ($(ios.north)+(0,\titleLift)$) {IOS -- Frontend};
+  \node at (ios.center) {\includegraphics[height=\logoH, width=\tightMaxW, keepaspectratio]{Swift_logo.png}};
+\end{tikzpicture}
+\caption{Tech Stack Übersicht}
+\label{fig:tech-stack}
+\end{figure}
+
+\begin{itemize}
+  \item \textbf{Firmware}
+    \begin{itemize}
+      \item \textbf{C++:} Die gesamte Firmware für unsere ESP32-basierten Messstationen und den Access Point (AP) wird in C++ geschrieben. Da C++ direkt zu plattformspezifischem Assembly compiled wird, ist für Exekution des Codes auf dem ESP32 keine zusätzliche Laufzeitumgebung (z.\,B. Python-Interpreter) notwendig. Dadurch reduziert sich die Größe der Firmware, was hilft, den Größeneinschränkungen der ESPs aus dem Weg zu gehen. Ein weiter Grund für die Wahl von C++ als Programmiersprache für die Firmware ist das uneingeschränkte Repertoire von Software-Libraries. Bei Alternativen, wie MicroPython, können nur Software-Libraries genutzt werden, für die Bindings erstellt wurden.
+      \item \textbf{Espressif-IDF:} Gewählt wurde Espressif-IDF als Entwicklungs-Tool-Chain, da diese direkt vom Hersteller zur Verfügung gestellt wird und daher auf dem neusten Stand ist. Alternativen, wie die Arduino IDE Tool-Chain, basieren auf einer älteren Version von Espressif-IDF und bieten weniger direkte Kontrolle, da sie eher an Anfänger gerichtet ist.
+    \end{itemize}
+
+  \item \textbf{Backend}
+    \begin{itemize}
+      \item \textbf{C\#:} C\# wurde als Sprache gewählt, da sie memory-safe ist, aber trotzdem eine angemessene Performanz aufweist. Die große Auswahl an von Microsoft erstellten Libraries für häufige Anwendungsfälle ist ein weiterer Aspekt, der in die Entscheidung eingeflossen ist. Sprachen wie Rust oder Go wurden erwägt, bieten jedoch keinen suffizienten Mehrwehrt im Vergleich zu C\#, eine Sprache, die nicht erlernt werden muss.
+      \item \textbf{ASP.NET:} ASP.Net wurde als Library zur Implementierung der API gewählt, da diese direkt von Microsoft, dem Maintainer des .NET-Ökosystems, zur Verfügung gestellt wird und daher in der .NET-Welt ein Industrie-Standard ist.
+    \end{itemize}
+
+  \item \textbf{Desktop-Frontend}
+    \begin{itemize}
+      \item \textbf{Electron:} Electron ist ein Framework, mit dem sich Desktop-Anwendungen mittels Webtechnologien (HTML, CSS, JavaScript) entwickeln lassen. Es ermöglicht die Einbindung von Webframeworks (React, etc.). Das ermöglicht die Wiederverwendung von Code unseres Web-Frontends. Es kombiniert Chromium (für die Darstellung) und Node.js (für Systemzugriffe) und ermöglicht das Erstellen von Crossplatform Desktop-Applikationen mit Zugriff auf plattformspezifische APIs (z.\,B. File-System, Benachrichtigungen, etc.).
+    \end{itemize}
+
+  \item \textbf{Database}
+    \begin{itemize}
+      \item \textbf{PostgreSQL:} PostgreSQL ist ein open-source und kostenlos für die kommerzielle Nutzung. PostgreSQL ist zuverlässig für große Datenmengen und bietet durch ein Plugin-System Erweiterbarkeit
+      \item \textbf{TimescaleDB:} TimescaleDB ist ein Plugin für PostgreSQL, welches ermöglicht, ausgewählte Tables für Timeseries-Data zu optimieren. Es ermöglicht uns die relationalen Eigenschaften von PostgreSQL zu nutzen, ohne auf Performanz der Timeseries-Data-Queries zu verzichten.
+    \end{itemize}
+
+  \item \textbf{Web-Frontend}
+    \begin{itemize}
+      \item \textbf{Next.js:} ist ein React-basiertes Framework für die Entwicklung moderner Webanwendungen. Es erweitert React um wichtige Features wie serverseitiges Rendern (SSR), statische Seitengenerierung (SSG). Diese Features ermöglichen das Erstellen einer performanten Website.
+      \item \textbf{Material-UI:} Material UI (MUI) ist eine weit verbreitete React-Komponentenbibliothek, die Googles Material Design umsetzt. Die Bibliothek bietet ein konsistentes und modernes Design out-of-the-box.
+    \end{itemize}
+
+  \item \textbf{Mobile-Frontend}
+    \begin{itemize}
+      \item \textbf{SwiftUI:} SwiftUI ist ein modernes UI-Framework von Apple zur Entwicklung von Benutzeroberflächen für iOS, macOS, watchOS und tvOS und basiert auf der Programmiersprache Swift. Die native Ausführung sorgt für eine flüssige Benutzererfahrung und Zugriff auf alle Gerätefunktionen (z.\,B. Widgets).
+    \end{itemize}
+\end{itemize}
+
+
+
+\section{Project}
+Wir arbeiten mit einem \textbf{agilen Projektmanagement-Ansatz}. Die Planung, Verfolgung und Abstimmung erfolgen in \textbf{Jira} auf Basis eines \textbf{Kanban-Boards}.
+
+\subsection{Sprints}
+Die Sprint-Dauer beträgt in diesem Projekt 3 Wochen. Am Beginn eines Sprints planen wir die Inhalte, am Ende ziehen wir ein kurzes Review und aktualisieren das Board.
+
+\subsection{Kanban-Board}
+Unser Board besteht aus \textbf{vier Spalten}, durch die alle Tickets von links nach rechts wandern:
+\begin{itemize}[nosep]
+  \item \textbf{Zu erledigen} — priorisierte, startklare Aufgaben
+  \item \textbf{In Arbeit} — aktuell bearbeitete Aufgaben
+  \item \textbf{Testing} — Ergebnisse in Prüfung/Abnahme
+  \item \textbf{Fertig} — abgeschlossene Aufgaben
+\end{itemize}
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{kanban_board.png}
+  \caption{Kanban-Board vom 20.10.2025}
+  \label{fig:kanban-board}
+\end{figure}
+
+
+\subsection{Project KPIs}
+\paragraph{Spillover-Rate}
+\paragraph{Meilensteinpünktlichkeit}
+\paragraph{Teamzufriedenheit}
+
+
+
+
+
+\subsection{Stakeholder Analysis}
+
+\begin{figure}[H]
+  \centering
+  \includesvg[width=\textwidth]{Stakeholder_Analysis}
+  \caption{Stakeholder Analysis — Übersicht}
+  \label{fig:swot-produkt}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[scale=0.95]
+  \colorlet{ringA}{red!10}
+  \colorlet{ringB}{red!18}
+  \colorlet{ringC}{red!30}
+  \tikzset{
+    labelStyle/.style={font=\bfseries\large, text=black!60},
+    person/.style={font=\small, align=center, text=black}
+  }
+
+  \def\Rout{8.6}
+  \def\Rmid{6.0}
+  \def\Rin{3.8}
+
+  \fill[ringA] (0,0) circle (\Rout);
+  \fill[ringB] (0,0) circle (\Rmid);
+  \fill[ringC] (0,0) circle (\Rin);
+
+  \node[labelStyle] at (0,{(\Rout+\Rmid)/2}) {Informed};
+  \node[labelStyle] at (0,{(\Rmid+\Rin)/2})  {Involved};
+  \node[labelStyle] at (0,0)                 {Core Team};
+
+  \node[person] at (-2.5,  0.7) {Daniel\\Nebel};
+  \node[person] at ( 2.5,  0.7) {Matthias\\Gregorich};
+  \node[person] at (-1.7, -1.7) {Damjan\\Petrovic};
+  \node[person] at ( 1.7, -1.7) {Marc\\Schneeweis};
+  \node[person] at ( 0.0, 2.5) {Viktor\\Novak};
+
+  \node[person] at (-4.9, 1.1) {Helmut\\Vogl};
+  \node[person] at ( 4.9, 1.1) {Markus\\Persson};
+
+  \node[person] at (-7.0,  2.0) {Harald\\Zumpf};
+  \node[person] at ( 7.0,  2.0) {Nada\\Hasewend};
+  \node[person] at ( 0.0, -7.3) {Dolezal\\Michael};
+\end{tikzpicture}
+\caption{Stakeholder-Kreise: Core Team, Involved und Informed.}
+\end{figure}
+
+
+
+
+
+
+
+
+
+\subsection{Responsibilities}
+
+Die Zuteilung der Verantwortlichkeiten im \textit{SensorBear}-Projekt orientiert sich an den verschiedenen Projektaspekten. So erhält jede Aufgabe die notwendige Aufmerksamkeit und jede Person kann in ihrem gewünschten Fachbereich arbeiten.
+
+\begin{itemize}
+  \item \textbf{Matthias Gregorich \textendash{} Infrastruktur und Datenschnittstellen:} Implementiert die Systeminfrastruktur sowie Schnittstellen zur Kommunikation zwischen Sensoren, Clients und Datenspeicherung. Bewertet und wählt geeignete Technologien für Persistierung und Datenübertragung. Zentral für den Aufbau einer skalierbaren, robusten und effizienten Backend-Struktur.
+  
+  \item \textbf{Daniel Nebel \textendash{} Mobile Applikation:} Verantwortlich für die Entwicklung der mobilen Anwendung des Projekts. Fokus auf benutzerfreundliches Design, hohe Performance und eine intuitive UI/UX für die Darstellung von Messdaten. Ziel ist eine einfache Navigation und ein optimales Nutzererlebnis auf mobilen Endgeräten.
+  
+  \item \textbf{Viktor Novak \textendash{} Qualitätssicherung und Automatisierung:} Entwickelt Strategien zur Qualitätssicherung und Automatisierung projektspezifischer Anwendungen. Schwerpunkt auf automatisierten Testverfahren zur Verbesserung der Codequalität. Zusätzlich Umsetzung einer Desktop-Applikation mit Electron, die Echtzeit-Push-Benachrichtigungen und erweiterte Datenansichten ermöglicht.
+  
+  \item \textbf{Damjan Petrovic \textendash{} Netzwerk- und Sensorkomponenten:} Verantwortlich für die Konstruktion und Programmierung von ESP32-basierten Sensorknoten in einem Mesh-Netzwerk. Der Fokus liegt auf zuverlässiger Kommunikation, stabiler Datenübertragung und Integration der Sensoren in das Gesamtsystem (Pairing). Fundamentaler Beitrag zur Schaffung der Hardware- und Kommunikationsbasis des Projekts.
+  
+  \item \textbf{Marc Schneeweis \textendash{} Web-Dashboard-Entwicklung:} Konzipiert und entwickelt ein webbasiertes Dashboard zur Visualisierung von Live-Daten, Statistiken und Warnmeldungen. Fokus auf klare Informationsdarstellung, intuitive Benutzeroberfläche und performante Datenanbindung. Trägt wesentlich zu einer transparenten und reaktionsschnellen Datenvisualisierung bei.
+\end{itemize}
+
+
+
+
+
+\subsection{Project Health Monitors}
+
+\newcommand{\statuscircle}[2][5pt]{
+
+  \tikz[baseline=-0.6ex]\draw[fill=#2, draw=black, line width=0.3pt] (0,0) circle (#1);%
+}
+\newcommand{\statusempty}[1][5pt]{
+  \tikz[baseline=-0.6ex]\draw[fill=gray!20, draw=black, line width=0.3pt] (0,0) circle (#1);%
+}
+
+\begin{table}[htbp]
+  \centering
+  \setlength{\tabcolsep}{10pt}
+  \arrayrulewidth=0.6pt
+  \begin{tabularx}{\textwidth}{|>{\bfseries}l|*{3}{>{\centering\arraybackslash}X}|}
+    \hline
+    \rowcolor{black!10}
+    Attribute & Checkpoint 1 & Checkpoint 2 & Checkpoint 3 \\
+    \hline
+    Teamzusammenarbeit           & \statuscircle{green!60}  & \statusempty & \statusempty \\
+    Ausgewogenes Team            & \statuscircle{green!60}  & \statusempty & \statusempty \\
+    Vielfalt fördern             & \statuscircle{yellow!70} & \statusempty & \statusempty \\
+    Gemeinsames Verständnis      & \statuscircle{yellow!70} & \statusempty & \statusempty \\
+    Werte und Kennzahlen         & \statuscircle{green!60}  & \statusempty & \statusempty \\
+    Geeignete Arbeitsweisen      & \statuscircle{green!60}  & \statusempty & \statusempty \\
+    Engagement und Unterstützung & \statuscircle{yellow!70} & \statusempty & \statusempty \\
+    Kontinuierliche Verbesserung & \statuscircle{yellow!70} & \statusempty & \statusempty \\
+    \hline
+  \end{tabularx}
+  \caption{Project Health Monitor}
+  \label{tab:project-health-monitor}
+\end{table}
+
+
+\noindent 
+Die Tabelle \ref{tab:project-health-monitor} zeigt den \emph{Project Health Monitor} über drei Kontrollpunkte (Checkpoint~1–3) und macht sichtbar, wie gut zentrale Team- und Prozessfaktoren aktuell funktionieren. 
+Jede Zeile beschreibt ein Attribut (z.\,B. Zusammenarbeit, Arbeitsweisen), jede Spalte den Status zum jeweiligen Checkpoint. 
+So lassen sich Trends (verbessert/verschlechtert) über die Zeit schnell erkennen.
+
+
+\subsection{SWOT Analysis}
+
+\begin{figure}[H]
+  \centering
+  \includesvg[width=\textwidth]{SWOT_Produkt}
+  \caption{SWOT-Analyse — Produkt}
+  \label{fig:swot-produkt}
+\end{figure}
+
+Hier text für SWOT-Produkt
+
+\begin{figure}[H]
+  \centering
+  \includesvg[width=\textwidth]{SWOT_Team}
+  \caption{SWOT-Analyse — Team}
+  \label{fig:swot-team}
+\end{figure}
+
+Hier text für SWOT-Team
+
+
+
+\subsection{Earned Value Analysis}
+\subsection{Project Environment Analysis}
+\subsection{Ceremonies}
+Wir haben als Team beschlossen keine zusätzlichen Zeremonien abzuhalten abseits von den vorher erwähnten Sprint Parametern.
+(noch hineinschreiben, was wir tun wenn jemand krank ist)
+
+
+
+
+
+
+
+
+\section{Development}
+\subsection{Version Management Approach}
+
+Der gesamte Code wird mit \textbf{Git} auf \textbf{GitHub} verwaltet.
+Die einzelnen Komponenten sind in separaten \textbf{Repositories} organisiert.
+
+\subsubsection{Branches}
+\begin{itemize}
+  \item \textbf{\branch{main}}: enthält jederzeit die stabile Release-Version. Auf diesem Branch werden keine direkten Commits ausgeführt, sondern nur Merges von \branch{dev}.
+  \item \textbf{\branch{dev}}: enthält den aktuellen, noch ungetesteten bzw. instabilen Entwicklungsstand und dient als Basis für \branch{feature}.
+  \item \textbf{\branch{feature}}: neue Features werden in diesen Branches pro Jira-Task (z.\,B. \texttt{feature/SPB-123-signin-form}) entwickelt und nach Abschluss der Entwicklung in \branch{dev} gemergt.
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+\section{Attachments}
+\subsection{Compliance Guidelines}
+
+Das Projekt ist vollständig \textbf{DSGVO-konform} und erfüllt alle Anforderungen an Datenschutz und Datensicherheit. 
+Erfasst werden ausschließlich physikalische Umgebungsdaten (Temperatur, CO\textsubscript{2}-Konzentration, Luftfeuchtigkeit, Schalldruckpegel) ohne jeglichen Personenbezug. 
+Die Kommunikation erfolgt ausschließlich innerhalb eines geschlossenen, internetfreien lokalen Netzwerks zwischen Sensorgeräten, Backend und Frontend. 
+Technisch bedingte IP- und MAC-Adressen dienen nur der internen Gerätekommunikation, werden nicht gespeichert. 
+Alle Messwerte werden lokal gespeichert, Benutzerkonten oder personenbezogene Logins existieren nicht. 
+Damit wird höchste Datensouveränität gewährleistet und die Einhaltung der Datenschutz-Grundverordnung sichergestellt.
+
+
+
+
+
+
+\subsection{Meeting Protocols}
+
+\begin{table}[htbp]
+  \centering
+  \begin{tabularx}{\textwidth}{|>{\columncolor{black!10}}l|X|}
+    \hline
+    \textbf{Typ} & Sprint 3 Planung \\ 
+    \hline
+    \textbf{Datum} & 18.10.2025 \\ 
+    \hline
+    \textbf{Teilnehmer} & L. Kreihsl, J. Kukacka, G. Mitterer, F. Sefranek \\ 
+    \hline
+    \textbf{Ort} & HTL Spengergasse \\ 
+    \hline
+    \textbf{Ziel} &
+    \vspace{-0.5em}
+    \begin{itemize}
+        \item Ziel des 3. Sprints festlegen
+        \item Tickets für den 3. Sprint besprechen und erstellen
+        \item Vorsitzenden und Protokollführer bestimmen
+    \end{itemize} \\
+    \hline
+    \textbf{Besprochene Punkte} &
+    \vspace{-0.5em}
+    \begin{itemize}
+        \item \textbf{Definition des Sprint-Umfangs}
+        \begin{itemize}
+            \item Aufgaben aus dem letzten Sprint abschließen
+            \item ML: Prototyp des Modells
+            \item Business App: Prototyp
+        \end{itemize}
+        \item Aufgaben erstellt und zugewiesen
+        \item Vorsitz: J. Kukacka; Protokoll: L. Kreihsl
+    \end{itemize} \\
+    \hline
+    \textbf{Nächste Schritte} &
+    \vspace{-0.5em}
+    \begin{itemize}
+        \item Start des 3. Sprints am 14.10.2024
+    \end{itemize} \\
+    \hline
+  \end{tabularx}
+  \caption{Sprint 3 – Planung}
+  \label{tab:meeting-sprint3}
+\end{table}
+
+
+
+
+\subsection{Time Records}
+
+\subsubsection*{Matthias Gregorich}
+\begin{table}[H]
+  \centering
+  \begin{tabularx}{\textwidth}{|c|c|c|X|}
+    \hline
+    \rowcolor{black!10}\textbf{Datum} & \textbf{Dauer} & \textbf{Kategorie} & \textbf{Beschreibung} \\
+    \hline
+    01.09.2025 & 2:00:00 & Meeting           & BearingPoint Absprache 1 \\ \hline
+    02.09.2025 & 2:00:00 & Meeting           & Unterricht Vorbereitungsphase/Sprint 1 Meeting \\ \hline
+    03.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    03.09.2025 & 1:00:00 & Projektmanagement & Github aufsetzen \\ \hline
+    04.09.2025 & 2:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    05.09.2025 & 3:00:00 & Meeting           & BearingPoint Absprache 2 \\ \hline
+    10.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    11.09.2025 & 2:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    16.09.2025 & 2:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    17.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    19.09.2025 & 4:00:00 & Implementierung   & C\# WebSocket Implementation \\ \hline
+    19.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    20.09.2025 & 5:00:00 & Implementierung   & ESP32 WebSocket Client Test mit C\# Backend \\ \hline
+    22.09.2025 & 3:00:00 & Projektmanagement & Jira-Setup und erste User-Stories erstellt \\ \hline
+    23.09.2025 & 2:00:00 & Implementierung   & ESP32 WIFI-AP Firmware \\ \hline
+    \rowcolor{black!10}\textbf{Summe} & \textbf{32:00:00} & & \\ \hline
+  \end{tabularx}
+  \caption{Zeitaufzeichnung – Matthias Gregorich}
+  \label{tab:zeit-matthias}
+\end{table}
+
+
+
+\subsubsection*{Daniel Nebel}
+\begin{table}[H]
+  \centering
+  \begin{tabularx}{\textwidth}{|c|c|c|X|}
+    \hline
+    \rowcolor{black!10}\textbf{Datum} & \textbf{Dauer} & \textbf{Kategorie} & \textbf{Beschreibung} \\
+    \hline
+    01.09.2025 & 2:00:00 & Meeting           & BearingPoint Absprache 1 \\ \hline
+    02.09.2025 & 2:00:00 & Meeting           & Unterricht Vorbereitungsphase/Sprint 1 Meeting \\ \hline
+    03.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    03.09.2025 & 1:00:00 & Projektmanagement & Github aufsetzen \\ \hline
+    04.09.2025 & 2:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    05.09.2025 & 3:00:00 & Meeting           & BearingPoint Absprache 2 \\ \hline
+    10.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    10.09.2025 & 3:00:00 & Research          & Swift-LiDAR/ARKit \\ \hline
+    11.09.2025 & 2:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    16.09.2025 & 2:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    17.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    19.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    22.09.2025 & 3:00:00 & Projektmanagement & Jira-Setup und erste User-Stories erstellt \\ \hline
+    \rowcolor{black!10}\textbf{Summe} & \textbf{24:00:00} & & \\ \hline
+  \end{tabularx}
+  \caption{Zeitaufzeichnung – Daniel Nebel}
+  \label{tab:zeit-daniel}
+\end{table}
+
+
+\subsubsection*{Viktor Novak}
+\begin{table}[H]
+  \centering
+  \begin{tabularx}{\textwidth}{|c|c|c|X|}
+    \hline
+    \rowcolor{black!10}\textbf{Datum} & \textbf{Dauer} & \textbf{Kategorie} & \textbf{Beschreibung} \\
+    \hline
+    01.09.2025 & 2:00:00 & Meeting           & BearingPoint Absprache 1 \\ \hline
+    02.09.2025 & 2:00:00 & Meeting           & Unterricht Vorbereitungsphase/Sprint 1 Meeting \\ \hline
+    03.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    03.09.2025 & 1:00:00 & Projektmanagement & Github aufsetzen \\ \hline
+    04.09.2025 & 2:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    05.09.2025 & 3:00:00 & Meeting           & BearingPoint Absprache 2 \\ \hline
+    10.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    11.09.2025 & 2:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    16.09.2025 & 2:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    17.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    19.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    \rowcolor{black!10}\textbf{Summe} & \textbf{18:00:00} & & \\ \hline
+  \end{tabularx}
+  \caption{Zeitaufzeichnung – Viktor Novak}
+  \label{tab:zeit-viktor}
+\end{table}
+
+
+\subsubsection*{Damjan Petrovic}
+\begin{table}[H]
+  \centering
+  \begin{tabularx}{\textwidth}{|c|c|c|X|}
+    \hline
+    \rowcolor{black!10}\textbf{Datum} & \textbf{Dauer} & \textbf{Kategorie} & \textbf{Beschreibung} \\
+    \hline
+    01.09.2025 & 2:00:00 & Meeting           & BearingPoint Absprache 1 \\ \hline
+    02.09.2025 & 2:00:00 & Meeting           & Unterricht Vorbereitungsphase/Sprint 1 Meeting \\ \hline
+    03.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    03.09.2025 & 1:00:00 & Projektmanagement & Github aufsetzen \\ \hline
+    04.09.2025 & 2:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    05.09.2025 & 3:00:00 & Meeting           & BearingPoint Absprache 2 \\ \hline
+    10.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    11.09.2025 & 2:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    16.09.2025 & 2:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    17.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    19.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    22.09.2025 & 3:00:00 & Research          & Vorstudie Sensoren \\ \hline
+    \rowcolor{black!10}\textbf{Summe} & \textbf{21:00:00} & & \\ \hline
+  \end{tabularx}
+  \caption{Zeitaufzeichnung – Damjan Petrovic}
+  \label{tab:zeit-damjan}
+\end{table}
+
+
+\subsubsection*{Marc Schneeweis}
+\begin{table}[H]
+  \centering
+  \begin{tabularx}{\textwidth}{|c|c|c|X|}
+    \hline
+    \rowcolor{black!10}\textbf{Datum} & \textbf{Dauer} & \textbf{Kategorie} & \textbf{Beschreibung} \\
+    \hline
+    01.09.2025 & 2:00:00 & Meeting           & BearingPoint Absprache 1 \\ \hline
+    02.09.2025 & 2:00:00 & Meeting           & Unterricht Vorbereitungsphase/Sprint 1 Meeting \\ \hline
+    03.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    03.09.2025 & 1:00:00 & Projektmanagement & Github aufsetzen \\ \hline
+    04.09.2025 & 2:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    05.09.2025 & 3:00:00 & Meeting           & BearingPoint Absprache 2 \\ \hline
+    10.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    11.09.2025 & 2:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    16.09.2025 & 2:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    17.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    19.09.2025 & 1:00:00 & Research          & Unterricht Vorbereitungsphase \\ \hline
+    \rowcolor{black!10}\textbf{Summe} & \textbf{18:00:00} & & \\ \hline
+  \end{tabularx}
+  \caption{Zeitaufzeichnung – Marc Schneeweis}
+  \label{tab:zeit-marc}
+\end{table}
+
+
+
+
+
+\subsectiontitlepage{Cooperation Contract}
+\includepdfnopagenum[pages=-,fitpaper=true]{Kooperationsvereinbarung_BearingPoint.pdf}
+
+\subsectiontitlepage{Legal Declaration}
+\includepdfnopagenum[pages=-,fitpaper=true]{Rechtliche_Erklaerung.pdf}
+
+
+
+\end{document}
