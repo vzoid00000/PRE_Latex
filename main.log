@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.20)  21 OCT 2025 00:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.20)  21 OCT 2025 01:37
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -906,13 +906,13 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 \droptitle=\skip62
 )
 
-main.tex:81: LaTeX Error: Option clash for package hyperref.
+main.tex:80: LaTeX Error: Option clash for package hyperref.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81 \usepackage
+l.80 \usepackage
                 {bookmark}
 The package hyperref has already been loaded with options:
   []
@@ -931,7 +931,7 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 )
 \BKM@id=\count341
 ))
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 95
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 94
 .
  (C:\Users\vikto\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -947,27 +947,30 @@ Package babel Info: 'ngerman' activates 'ngerman' shorthands.
 
 LaTeX Warning: Label `fig:swot-produkt' multiply defined.
 
+
+LaTeX Warning: Label `tab:meeting-02-09-2025' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
 
 (C:\Users\vikto\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -1007,14 +1010,14 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring OFF on input line 95.
-LaTeX Info: Redefining \microtypecontext on input line 95.
-Package microtype Info: Applying patch `item' on input line 95.
-Package microtype Info: Applying patch `toc' on input line 95.
-Package microtype Info: Applying patch `eqnum' on input line 95.
-Package microtype Info: Applying patch `footnote' on input line 95.
-Package microtype Info: Applying patch `verbatim' on input line 95.
-LaTeX Info: Redefining \microtypesetup on input line 95.
+Package hyperref Info: Link coloring OFF on input line 94.
+LaTeX Info: Redefining \microtypecontext on input line 94.
+Package microtype Info: Applying patch `item' on input line 94.
+Package microtype Info: Applying patch `toc' on input line 94.
+Package microtype Info: Applying patch `eqnum' on input line 94.
+Package microtype Info: Applying patch `footnote' on input line 94.
+Package microtype Info: Applying patch `verbatim' on input line 94.
+LaTeX Info: Redefining \microtypesetup on input line 94.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1067,7 +1070,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 <SensorBear_Logo.png, id=6, 562.35094pt x 149.05687pt>
 File: SensorBear_Logo.png Graphic file (type png)
 <use SensorBear_Logo.png>
-Package pdftex.def Info: SensorBear_Logo.png  used on input line 96.
+Package pdftex.def Info: SensorBear_Logo.png  used on input line 95.
 (pdftex.def)             Requested size: 375.80544pt x 99.61057pt.
 
 
@@ -1116,9 +1119,9 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 ]
 Package svg Info: Last page of `./svg-inkscape/DeadlinesTimelineCycle_svg-tex.p
-df' is 1 on input line 121.
+df' is 1 on input line 120.
  (svg-inkscape/DeadlinesTimelineCycle_svg-tex.pdf_tex
-<./svg-inkscape/DeadlinesTimelineCycle_svg-tex.pdf, id=85, page=1, 900.33655pt 
+<./svg-inkscape/DeadlinesTimelineCycle_svg-tex.pdf, id=83, page=1, 900.33655pt 
 x 426.96295pt>
 File: ./svg-inkscape/DeadlinesTimelineCycle_svg-tex.pdf Graphic file (type pdf)
 
@@ -1128,10 +1131,10 @@ ge1 used on input line 56.
 (pdftex.def)             Requested size: 469.75502pt x 222.77122pt.
 )
 Package svg Info: Last page of `./svg-inkscape/BearingPoint_logo_svg-tex.pdf' i
-s 1 on input line 132.
+s 1 on input line 131.
 
 (svg-inkscape/BearingPoint_logo_svg-tex.pdf_tex
-<./svg-inkscape/BearingPoint_logo_svg-tex.pdf, id=87, page=1, 1128.18228pt x 18
+<./svg-inkscape/BearingPoint_logo_svg-tex.pdf, id=85, page=1, 1128.18228pt x 18
 8.20313pt>
 File: ./svg-inkscape/BearingPoint_logo_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/BearingPoint_logo_svg-tex.pdf, page 1>
@@ -1139,10 +1142,10 @@ Package pdftex.def Info: ./svg-inkscape/BearingPoint_logo_svg-tex.pdf , page1 u
 sed on input line 56.
 (pdftex.def)             Requested size: 211.38832pt x 35.26215pt.
 )
-<UI_Mockup_Web.png, id=88, 1508.63625pt x 844.15375pt>
+<UI_Mockup_Web.png, id=86, 1508.63625pt x 844.15375pt>
 File: UI_Mockup_Web.png Graphic file (type png)
 <use UI_Mockup_Web.png>
-Package pdftex.def Info: UI_Mockup_Web.png  used on input line 151.
+Package pdftex.def Info: UI_Mockup_Web.png  used on input line 150.
 (pdftex.def)             Requested size: 469.75502pt x 262.84422pt.
 
 
@@ -1151,7 +1154,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.155 
+l.154 
        [1
 
 
@@ -1159,23 +1162,23 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.155 
+l.154 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.155 
+l.154 
        <./svg-inkscape/DeadlinesTimelineCycle_svg-tex.pdf> <./svg-inkscape/Bear
 ingPoint_logo_svg-tex.pdf
 
 pdfTeX warning: pdflatex (file ./svg-inkscape/BearingPoint_logo_svg-tex.pdf): P
 DF inclusion: multiple pdfs with page group included in a single page
 >]
-<UI_Mockup_IOS.png, id=209, 239.89626pt x 529.47812pt>
+<UI_Mockup_IOS.png, id=207, 239.89626pt x 529.47812pt>
 File: UI_Mockup_IOS.png Graphic file (type png)
 <use UI_Mockup_IOS.png>
-Package pdftex.def Info: UI_Mockup_IOS.png  used on input line 158.
+Package pdftex.def Info: UI_Mockup_IOS.png  used on input line 157.
 (pdftex.def)             Requested size: 263.43643pt x 581.43399pt.
 
 
@@ -1184,43 +1187,73 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.162 
+l.161 
        <./UI_Mockup_Web.png>]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+80.
+
+(C:\Users\vikto\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 
 [3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.181 \paragraph
-                {Database Query Time Latency (1 Temp/Tag/Raum)} <./UI_Mockup_IO
-S.png>]
+l.182       \item \textbf
+                         {Definition:} Zeit, bis das größte sichtbare Inha...
+ <./UI_Mockup_IOS.png>]
+main.tex:195: Undefined control sequence.
+l.195       \item \textbf{Berechnung:} \((\text
+                                               {Anzahl der erfolgreichen Tes...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:195: Undefined control sequence.
+l.195 ...Anzahl der erfolgreichen Tests}) / (\text
+                                                  {Anzahl der durchgeführte...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 195.
+
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 209.
+(Font)              <14.4> on input line 224.
 
 
-[4{C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.en
-c}
+[4{C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{
+C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/U
+sers/vikto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/U
+sers/vikto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.257 
-      ]
-<CPP_logo.png, id=230, 113.004pt x 127.1295pt>
+l.262 ...[API (Application Programming Interface)]
+                                                  ]
+<CPP_logo.png, id=228, 113.004pt x 127.1295pt>
 File: CPP_logo.png Graphic file (type png)
 <use CPP_logo.png>
-Package pdftex.def Info: CPP_logo.png  used on input line 295.
+Package pdftex.def Info: CPP_logo.png  used on input line 310.
 (pdftex.def)             Requested size: 55.63971pt x 62.59596pt.
-<ESPRESSIF_logo.png, id=231, 113.67468pt x 113.67468pt>
+<ESPRESSIF_logo.png, id=229, 113.67468pt x 113.67468pt>
 File: ESPRESSIF_logo.png Graphic file (type png)
 <use ESPRESSIF_logo.png>
-Package pdftex.def Info: ESPRESSIF_logo.png  used on input line 296.
+Package pdftex.def Info: ESPRESSIF_logo.png  used on input line 311.
 (pdftex.def)             Requested size: 62.59584pt x 62.59596pt.
 Package svg Info: Last page of `./svg-inkscape/CS_logo_svg-tex.pdf' is 1 on inp
-ut line 298.
- (svg-inkscape/CS_logo_svg-tex.pdf_tex
-<./svg-inkscape/CS_logo_svg-tex.pdf, id=233, page=1, 94.28976pt x 110.00473pt>
+ut line 313.
+
+(svg-inkscape/CS_logo_svg-tex.pdf_tex
+<./svg-inkscape/CS_logo_svg-tex.pdf, id=231, page=1, 94.28976pt x 110.00473pt>
 File: ./svg-inkscape/CS_logo_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/CS_logo_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/CS_logo_svg-tex.pdf , page1 used on inp
@@ -1228,10 +1261,10 @@ ut line 56.
 (pdftex.def)             Requested size: 53.6549pt x 62.59758pt.
 )
 Package svg Info: Last page of `./svg-inkscape/ASP_NET_logo_svg-tex.pdf' is 1 o
-n input line 299.
+n input line 314.
 
 (svg-inkscape/ASP_NET_logo_svg-tex.pdf_tex
-<./svg-inkscape/ASP_NET_logo_svg-tex.pdf, id=235, page=1, 108.405pt x 108.405pt
+<./svg-inkscape/ASP_NET_logo_svg-tex.pdf, id=233, page=1, 108.405pt x 108.405pt
 >
 File: ./svg-inkscape/ASP_NET_logo_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/ASP_NET_logo_svg-tex.pdf, page 1>
@@ -1239,73 +1272,124 @@ Package pdftex.def Info: ./svg-inkscape/ASP_NET_logo_svg-tex.pdf , page1 used o
 n input line 56.
 (pdftex.def)             Requested size: 62.59596pt x 62.59703pt.
 )
-<Electron_logo.png, id=236, 237.13594pt x 80.55093pt>
+<Electron_logo.png, id=234, 237.13594pt x 80.55093pt>
 File: Electron_logo.png Graphic file (type png)
 <use Electron_logo.png>
-Package pdftex.def Info: Electron_logo.png  used on input line 301.
+Package pdftex.def Info: Electron_logo.png  used on input line 316.
 (pdftex.def)             Requested size: 85.358pt x 28.99461pt.
-<PostgresSQL_logo.png, id=237, 120.45pt x 119.69719pt>
+<PostgresSQL_logo.png, id=235, 120.45pt x 119.69719pt>
 File: PostgresSQL_logo.png Graphic file (type png)
 <use PostgresSQL_logo.png>
-Package pdftex.def Info: PostgresSQL_logo.png  used on input line 308.
+Package pdftex.def Info: PostgresSQL_logo.png  used on input line 323.
 (pdftex.def)             Requested size: 62.98906pt x 62.59538pt.
-<Timescale_logo.png, id=238, 300.25577pt x 84.93588pt>
+<Timescale_logo.png, id=236, 300.25577pt x 84.93588pt>
 File: Timescale_logo.png Graphic file (type png)
 <use Timescale_logo.png>
-Package pdftex.def Info: Timescale_logo.png  used on input line 310.
+Package pdftex.def Info: Timescale_logo.png  used on input line 325.
 (pdftex.def)             Requested size: 91.0487pt x 25.7557pt.
-<NEXTJS_logo.png, id=239, 102.93pt x 121.107pt>
+<NEXTJS_logo.png, id=237, 102.93pt x 121.107pt>
 File: NEXTJS_logo.png Graphic file (type png)
 <use NEXTJS_logo.png>
-Package pdftex.def Info: NEXTJS_logo.png  used on input line 317.
+Package pdftex.def Info: NEXTJS_logo.png  used on input line 332.
 (pdftex.def)             Requested size: 53.20035pt x 62.5953pt.
-<Material_UI_logo.png, id=240, 148.482pt x 128.772pt>
+<Material_UI_logo.png, id=238, 148.482pt x 128.772pt>
 File: Material_UI_logo.png Graphic file (type png)
 <use Material_UI_logo.png>
-Package pdftex.def Info: Material_UI_logo.png  used on input line 319.
+Package pdftex.def Info: Material_UI_logo.png  used on input line 334.
 (pdftex.def)             Requested size: 72.17679pt x 62.59581pt.
-<Swift_logo.png, id=241, 78.84pt x 109.5pt>
+<Swift_logo.png, id=239, 78.84pt x 109.5pt>
 File: Swift_logo.png Graphic file (type png)
 <use Swift_logo.png>
-Package pdftex.def Info: Swift_logo.png  used on input line 325.
+Package pdftex.def Info: Swift_logo.png  used on input line 340.
 (pdftex.def)             Requested size: 45.07039pt x 62.59776pt.
 
-Overfull \hbox (1.30626pt too wide) in paragraph at lines 326--327
+Overfull \hbox (1.30626pt too wide) in paragraph at lines 341--342
  [][] 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
-32.
-(C:\Users\vikto\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
+
 
 [5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.347     \end{itemize}
-                       {C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/enc/
-dvips/lm/lm-ts1.enc} <./CPP_logo.png> <./ESPRESSIF_logo.png> <./svg-inkscape/CS
-_logo_svg-tex.pdf> <./svg-inkscape/ASP_NET_logo_svg-tex.pdf
+l.356       \item \textbf
+                         {ASP.NET:} ASP.Net wurde als Library zur Implementi...
+ <./CPP_logo.png> <./ESPRESSIF_logo.png> <./svg-inkscape/CS_logo_svg-tex.pdf> <
+./svg-inkscape/ASP_NET_logo_svg-tex.pdf
 
 pdfTeX warning: pdflatex (file ./svg-inkscape/ASP_NET_logo_svg-tex.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 > <./Electron_logo.png> <./PostgresSQL_logo.png> <./Timescale_logo.png (PNG cop
 y)> <./NEXTJS_logo.png> <./Material_UI_logo.png> <./Swift_logo.png>]
-<kanban_board.png, id=259, 1017.04968pt x 791.20593pt>
-File: kanban_board.png Graphic file (type png)
-<use kanban_board.png>
-Package pdftex.def Info: kanban_board.png  used on input line 387.
-(pdftex.def)             Requested size: 469.75502pt x 365.44409pt.
+<Sprint_Zyklus.png, id=256, 863.225pt x 652.4375pt>
+File: Sprint_Zyklus.png Graphic file (type png)
+<use Sprint_Zyklus.png>
+Package pdftex.def Info: Sprint_Zyklus.png  used on input line 392.
+(pdftex.def)             Requested size: 399.29463pt x 301.78743pt.
 
 
 [6]
+<kanban_board.png, id=261, 1017.04968pt x 791.20593pt>
+File: kanban_board.png Graphic file (type png)
+<use kanban_board.png>
+Package pdftex.def Info: kanban_board.png  used on input line 409.
+(pdftex.def)             Requested size: 469.75502pt x 365.44409pt.
+
+
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.413 
+       <./Sprint_Zyklus.png (PNG copy)>]
+main.tex:422: Undefined control sequence.
+<argument> \text 
+                 {Anzahl der unvollständigen Vorgänge eines Sprints}
+l.422 ...hl der gesamten Vorgänge eines Sprints}}
+                                                   \times 100\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 422.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 422.
+
+main.tex:422: Undefined control sequence.
+<argument> \text 
+                 {Anzahl der gesamten Vorgänge eines Sprints}
+l.422 ...hl der gesamten Vorgänge eines Sprints}}
+                                                   \times 100\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 422.
+
+
+
+[8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.438 \end{description}
+                        <./kanban_board.png>]
 Package svg Info: Last page of `./svg-inkscape/Stakeholder_Analysis_svg-tex.pdf
-' is 1 on input line 406.
- (svg-inkscape/Stakeholder_Analysis_svg-tex.pdf_tex
-<./svg-inkscape/Stakeholder_Analysis_svg-tex.pdf, id=265, page=1, 1371.57341pt 
+' is 1 on input line 447.
+
+(svg-inkscape/Stakeholder_Analysis_svg-tex.pdf_tex
+<./svg-inkscape/Stakeholder_Analysis_svg-tex.pdf, id=279, page=1, 1371.57341pt 
 x 578.46584pt>
 File: ./svg-inkscape/Stakeholder_Analysis_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Stakeholder_Analysis_svg-tex.pdf, page 1>
@@ -1314,34 +1398,26 @@ Package pdftex.def Info: ./svg-inkscape/Stakeholder_Analysis_svg-tex.pdf , page
 (pdftex.def)             Requested size: 469.75502pt x 198.11452pt.
 )
 
-[7
-pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.410 
-       <./kanban_board.png>]
-
-[8
-pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.450 
-       <./svg-inkscape/Stakeholder_Analysis_svg-tex.pdf>]
-
 [9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.468   \item \textbf
+l.491 
+       <./svg-inkscape/Stakeholder_Analysis_svg-tex.pdf>]
+
+[10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.509   \item \textbf
                      {Viktor Novak \textendash{} Qualitätssicherung und Aut...
 ]
 Package svg Info: Last page of `./svg-inkscape/SWOT_Produkt_svg-tex.pdf' is 1 o
-n input line 523.
+n input line 564.
  (svg-inkscape/SWOT_Produkt_svg-tex.pdf_tex
-<./svg-inkscape/SWOT_Produkt_svg-tex.pdf, id=482, page=1, 669.0229pt x 417.5051
+<./svg-inkscape/SWOT_Produkt_svg-tex.pdf, id=487, page=1, 669.0229pt x 417.5051
 1pt>
 File: ./svg-inkscape/SWOT_Produkt_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/SWOT_Produkt_svg-tex.pdf, page 1>
@@ -1350,17 +1426,17 @@ n input line 56.
 (pdftex.def)             Requested size: 469.75502pt x 293.1562pt.
 )
 
-[10
+[11
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.527 
+l.568 
       ]
 Package svg Info: Last page of `./svg-inkscape/SWOT_Team_svg-tex.pdf' is 1 on i
-nput line 532.
+nput line 573.
  (svg-inkscape/SWOT_Team_svg-tex.pdf_tex
-<./svg-inkscape/SWOT_Team_svg-tex.pdf, id=489, page=1, 669.0229pt x 419.82625pt
+<./svg-inkscape/SWOT_Team_svg-tex.pdf, id=495, page=1, 669.0229pt x 419.82625pt
 >
 File: ./svg-inkscape/SWOT_Team_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/SWOT_Team_svg-tex.pdf, page 1>
@@ -1369,57 +1445,55 @@ nput line 56.
 (pdftex.def)             Requested size: 469.75502pt x 294.78601pt.
 )
 
-[11
-pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
+[12
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.536 
+l.577 
        <./svg-inkscape/SWOT_Produkt_svg-tex.pdf>]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
-62.
+99.
 
 (C:\Users\vikto\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 562.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 599.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-[12
-pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
+[13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.565 \end{itemize}
-                    <./svg-inkscape/SWOT_Team_svg-tex.pdf>]
+l.623 
+       <./svg-inkscape/SWOT_Team_svg-tex.pdf>]
 
-[13
+[14
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.686 
+l.915 
       ]
 
-[14
+[15
 pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.730 
-      ]
-
-[15
+l.915 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.771 
+l.915 
       ]
 
 [16
@@ -1427,36 +1501,66 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.811 
-      ]
-
-[17
+l.915 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.850 
+l.915 
       ]
 
-[18
+[17
 pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.855 \subsectiontitlepage{Cooperation Contract}
-                                                ]
+l.959 
+      ]
+
+[18
+pdfTeX warning (ext4): destination with the same identifier (name{table.8}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1000 
+       ]
 
 [19
+pdfTeX warning (ext4): destination with the same identifier (name{table.9}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1040 
+       ]
+
+[20
+pdfTeX warning (ext4): destination with the same identifier (name{table.10}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1079 
+       ]
+
+[21
+pdfTeX warning (ext4): destination with the same identifier (name{table.11}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1084 \subsectiontitlepage{Cooperation Contract}
+                                                 ]
+
+[22
 
 ]
 
 pdfTeX warning: pdflatex (file ./Kooperationsvereinbarung_BearingPoint.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Kooperationsvereinbarung_BearingPoint.pdf, id=705, 597.432pt x 845.07718pt>
+<Kooperationsvereinbarung_BearingPoint.pdf, id=722, 597.432pt x 845.07718pt>
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf  used on inp
-ut line 856.
+ut line 1085.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
 
 
@@ -1466,169 +1570,169 @@ F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./Kooperationsvereinbarung_BearingPoint.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Kooperationsvereinbarung_BearingPoint.pdf, id=707, page=1, 597.432pt x 845.077
+<Kooperationsvereinbarung_BearingPoint.pdf, id=724, page=1, 597.432pt x 845.077
 18pt>
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 1>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page1 used
- on input line 856.
+ on input line 1085.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 1>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page1 used
- on input line 856.
+ on input line 1085.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 1>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page1 used
- on input line 856.
+ on input line 1085.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 1>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page1 used
- on input line 856.
+ on input line 1085.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
 
 
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 1>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page1 used
- on input line 856.
+ on input line 1085.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
-[20
+[23
 
 
  <./Kooperationsvereinbarung_BearingPoint.pdf>]
 
 pdfTeX warning: pdflatex (file ./Kooperationsvereinbarung_BearingPoint.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Kooperationsvereinbarung_BearingPoint.pdf, id=750, page=2, 597.432pt x 845.077
+<Kooperationsvereinbarung_BearingPoint.pdf, id=768, page=2, 597.432pt x 845.077
 18pt>
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 2>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page2 used
- on input line 856.
+ on input line 1085.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 2>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page2 used
- on input line 856.
+ on input line 1085.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
 
 
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 2>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page2 used
- on input line 856.
+ on input line 1085.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
-[21
+[24
 
  <./Kooperationsvereinbarung_BearingPoint.pdf>]
 
 pdfTeX warning: pdflatex (file ./Kooperationsvereinbarung_BearingPoint.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Kooperationsvereinbarung_BearingPoint.pdf, id=766, page=3, 597.432pt x 845.077
+<Kooperationsvereinbarung_BearingPoint.pdf, id=784, page=3, 597.432pt x 845.077
 18pt>
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 3>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page3 used
- on input line 856.
+ on input line 1085.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 3>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page3 used
- on input line 856.
+ on input line 1085.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
 
 
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 3>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page3 used
- on input line 856.
+ on input line 1085.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
-[22
+[25
 
  <./Kooperationsvereinbarung_BearingPoint.pdf>]
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.20}) has
+pdfTeX warning (ext4): destination with the same identifier (name{page.23}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.858 \subsectiontitlepage{Legal Declaration}
-                                              [20
+l.1087 \subsectiontitlepage{Legal Declaration}
+                                               [23
 
 ]
-<Rechtliche_Erklaerung.pdf, id=809, 597.31157pt x 844.83629pt>
+<Rechtliche_Erklaerung.pdf, id=826, 597.31157pt x 844.83629pt>
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf>
-Package pdftex.def Info: Rechtliche_Erklaerung.pdf  used on input line 859.
+Package pdftex.def Info: Rechtliche_Erklaerung.pdf  used on input line 1088.
 (pdftex.def)             Requested size: 597.3101pt x 844.83423pt.
-<Rechtliche_Erklaerung.pdf, id=811, page=1, 597.31157pt x 844.83629pt>
+<Rechtliche_Erklaerung.pdf, id=828, page=1, 597.31157pt x 844.83629pt>
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 1>
-Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page1 used on input line 8
-59.
+Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page1 used on input line 1
+088.
 (pdftex.def)             Requested size: 597.3101pt x 844.83423pt.
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 1>
-Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page1 used on input line 8
-59.
+Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page1 used on input line 1
+088.
 (pdftex.def)             Requested size: 597.61998pt x 845.27252pt.
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 1>
-Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page1 used on input line 8
-59.
+Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page1 used on input line 1
+088.
 (pdftex.def)             Requested size: 597.61998pt x 845.27252pt.
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 1>
-Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page1 used on input line 8
-59.
+Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page1 used on input line 1
+088.
 (pdftex.def)             Requested size: 597.61998pt x 845.27252pt.
 
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.21}) has
+pdfTeX warning (ext4): destination with the same identifier (name{page.24}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.859 ...fitpaper=true]{Rechtliche_Erklaerung.pdf}
+l.1088 ...itpaper=true]{Rechtliche_Erklaerung.pdf}
                                                   
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 1>
-Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page1 used on input line 8
-59.
+Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page1 used on input line 1
+088.
 (pdftex.def)             Requested size: 597.61998pt x 845.27252pt.
- [21
+ [24
 
 
  <./Rechtliche_Erklaerung.pdf>]
-<Rechtliche_Erklaerung.pdf, id=818, page=2, 597.31157pt x 844.83629pt>
+<Rechtliche_Erklaerung.pdf, id=835, page=2, 597.31157pt x 844.83629pt>
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 2>
-Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page2 used on input line 8
-59.
+Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page2 used on input line 1
+088.
 (pdftex.def)             Requested size: 597.61998pt x 845.27252pt.
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 2>
-Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page2 used on input line 8
-59.
+Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page2 used on input line 1
+088.
 (pdftex.def)             Requested size: 597.61998pt x 845.27252pt.
 
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.22}) has
+pdfTeX warning (ext4): destination with the same identifier (name{page.25}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.859 ...fitpaper=true]{Rechtliche_Erklaerung.pdf}
+l.1088 ...itpaper=true]{Rechtliche_Erklaerung.pdf}
                                                   
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 2>
-Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page2 used on input line 8
-59.
+Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page2 used on input line 1
+088.
 (pdftex.def)             Requested size: 597.61998pt x 845.27252pt.
- [22
+ [25
 
  <./Rechtliche_Erklaerung.pdf>] (main.aux)
  ***********
@@ -1641,27 +1745,29 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29078 strings out of 468080
- 575699 string characters out of 5425766
- 1062877 words of memory out of 5000000
- 56962 multiletter control sequences out of 15000+600000
- 688320 words of font info for 147 fonts, out of 8000000 for 9000
+ 29106 strings out of 468080
+ 576191 string characters out of 5425766
+ 1070884 words of memory out of 5000000
+ 56982 multiletter control sequences out of 15000+600000
+ 688403 words of font info for 148 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,17n,93p,1003b,971s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
 b><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
-b><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb
-><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
-<C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><
-C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:
-/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/U
-sers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/U
-sers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/U
-sers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/U
-sers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (27 pages, 2371005 bytes).
+b><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pf
+b><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb
+><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb>
+<C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><
+C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C
+:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/
+Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Us
+ers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Us
+ers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Us
+ers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Us
+ers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
+Output written on main.pdf (30 pages, 2470736 bytes).
 PDF statistics:
- 986 PDF objects out of 1000 (max. 8388607)
- 87 named destinations out of 1000 (max. 500000)
- 36268 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 1015 PDF objects out of 1200 (max. 8388607)
+ 91 named destinations out of 1000 (max. 500000)
+ 36265 words of extra memory for PDF output out of 42996 (max. 10000000)
 

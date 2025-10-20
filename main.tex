@@ -9,12 +9,11 @@
   \clearpage
   \refstepcounter{subsection}%
   \phantomsection
-  % ToC: mit Nummer; Bookmark (Seitenleiste): ohne Nummer
   \addcontentsline{toc}{subsection}
     {\texorpdfstring{\protect\numberline{\thesubsection}#1}{#1}}
   \vspace*{\fill}
   \begin{center}
-    {\huge\bfseries \thesubsection\quad #1\par} % Nummer auf der Seite behalten
+    {\huge\bfseries \thesubsection\quad #1\par}
   \end{center}
   \vspace*{\fill}
   \clearpage
@@ -177,10 +176,26 @@ Betreute Branchen sind u.\,a.\ Finanzdienstleistungen, Automotive/Fertigung, Tel
 
 \subsection{Product KPIs}
 
-\paragraph{Dashboard-Ladezeit}
-\paragraph{Database Query Time Latency (1 Temp/Tag/Raum)}
-\paragraph{Test Success Rate}
+\begin{itemize}
+  \item \textbf{Dashboard-Ladezeit (LCP – Largest Contentful Paint)}
+    \begin{itemize}
+      \item \textbf{Definition:} Zeit, bis das größte sichtbare Inhaltselement geladen wurde.
+      \item \textbf{Ziel:} Die Messung der Ladezeit des größten Inhaltselements dient zur Feststellung der Endnutzererfahrung. Bei zu hohen Messwerten sind Optimierungen vorzunehmen.
+    \end{itemize}
 
+  \item \textbf{API-Query-Latency}
+    \begin{itemize}
+      \item \textbf{Definition:} Misst die End-to-End-Latenz von API-Anfragen.
+      \item \textbf{Ziel:} Die Messung der Latenz von API-Anfragen ermöglicht die gezielte Optimierung des Backends, um den Nutzern ein flüssiges Frontend bieten zu können.
+    \end{itemize}
+
+  \item \textbf{Test-Success-Rate}
+    \begin{itemize}
+      \item \textbf{Definition:} Misst, wie viele Code-Tests prozentuell erfolgreich sind.
+      \item \textbf{Berechnung:} \((\text{Anzahl der erfolgreichen Tests}) / (\text{Anzahl der durchgeführten Tests}) \times 100\).
+      \item \textbf{Ziel:} Die Test-Success-Rate gibt Auskunft über die Codequalität.
+    \end{itemize}
+\end{itemize}
 
 
 
@@ -372,6 +387,13 @@ Wir arbeiten mit einem \textbf{agilen Projektmanagement-Ansatz}. Die Planung, Ve
 \subsection{Sprints}
 Die Sprint-Dauer beträgt in diesem Projekt 3 Wochen. Am Beginn eines Sprints planen wir die Inhalte, am Ende ziehen wir ein kurzes Review und aktualisieren das Board.
 
+\begin{figure}[H] 
+  \centering
+  \includegraphics[width=0.85\linewidth]{Sprint_Zyklus.png}
+  \caption{Ablauf eines 3-wöchigen Sprints}
+  \label{fig:sprint-ablauf}
+\end{figure}
+
 \subsection{Kanban-Board}
 Unser Board besteht aus \textbf{vier Spalten}, durch die alle Tickets von links nach rechts wandern:
 \begin{itemize}[nosep]
@@ -391,10 +413,29 @@ Unser Board besteht aus \textbf{vier Spalten}, durch die alle Tickets von links 
 
 
 \subsection{Project KPIs}
-\paragraph{Spillover-Rate}
-\paragraph{Meilensteinpünktlichkeit}
-\paragraph{Teamzufriedenheit}
 
+\subsubsection{Spillover-Rate}
+\begin{description}
+  \item[Definition:] Misst, wie viele Jira-Vorgänge in den nächsten Sprint übernommen werden.
+  \item[Berechnung:] \(
+    \frac{\text{Anzahl der unvollständigen Vorgänge eines Sprints}}
+         {\text{Anzahl der gesamten Vorgänge eines Sprints}} \times 100\
+  \)
+  \item[Ziel:] Die Spillover-Rate hilft, die Selbsteinschätzung der Arbeitskapazität zu beurteilen.
+\end{description}
+
+\subsubsection{Deadline-Verfehlungen}
+\begin{description}
+  \item[Definition:] Anzahl der verfehlten Deadlines.
+  \item[Ziel:] Die Anzahl der Deadline-Verfehlungen gibt Auskunft über die Effizienz des Projekts und die Selbsteinschätzungsfähigkeit des Projektteams.
+\end{description}
+
+\subsubsection{Teamzufriedenheit}
+\begin{description}
+  \item[Definition:] Durchschnittliche Zufriedenheit basierend auf einer Team-Umfrage.
+  \item[Berechnung:] Durchschnitt der Bewertungen aller Mitglieder auf einer Skala von 1--10.
+  \item[Ziel:] Die Teamzufriedenheit spiegelt das Projektumfeld wider. Bei niedrigen Werten können nach einer Teamdiskussion Maßnahmen abgeleitet werden, um Stimmung und Arbeitsbedingungen zu verbessern.
+\end{description}
 
 
 
@@ -548,10 +589,6 @@ Wir haben als Team beschlossen keine zusätzlichen Zeremonien abzuhalten abseits
 
 
 
-
-
-
-\section{Development}
 \subsection{Version Management Approach}
 
 Der gesamte Code wird mit \textbf{Git} auf \textbf{GitHub} verwaltet.
@@ -595,45 +632,237 @@ Damit wird höchste Datensouveränität gewährleistet und die Einhaltung der Da
   \centering
   \begin{tabularx}{\textwidth}{|>{\columncolor{black!10}}l|X|}
     \hline
-    \textbf{Typ} & Sprint 3 Planung \\ 
+    \textbf{Datum} & 01.09.2025 \\
     \hline
-    \textbf{Datum} & 18.10.2025 \\ 
+    \textbf{Teilnehmer intern} & Matthias Gregorich, Daniel Nebel, Viktor Novak, Damjan Petrovic, Marc Schneeweis \\ 
     \hline
-    \textbf{Teilnehmer} & L. Kreihsl, J. Kukacka, G. Mitterer, F. Sefranek \\ 
+    \textbf{Teilnehmer extern} & Nada Hasewend, Markus Persson, Mladen Stefanovic  \\
+    \hline
+    \textbf{Ort} & Teams \\ 
+    \hline
+    \textbf{Ziel} &
+    \vspace{-0.5em}
+    \begin{itemize}
+        \item Gegenseitiges Kennenlernen
+        \item Thema/Idee Pitchen: IOT-Sensor Idee vorstellen und Meinungen einholen
+    \end{itemize} \\
+    \hline
+    \textbf{Besprochene Punkte} &
+    \vspace{-0.5em}
+    \begin{itemize}
+        \item Kommunikationswege festgelegt
+        \item IOT-Sensor Projekt fixiert, mit dedizierter Web/Mobile Anzeige
+    \end{itemize} \\
+    \hline
+    \textbf{Nächste Schritte} &
+    \vspace{-0.5em}
+    \begin{itemize}
+        \item Gewünschte Features festlegen auf beiden Seiten
+        \item PowerPoint für technische Umsetzung erstellen, für Meeting am 05.09.2025
+    \end{itemize} \\
+    \hline
+  \end{tabularx}
+  \caption{Meeting Protokoll vom 01.09.2025}
+  \label{tab:meeting-01-09-2025}
+\end{table}
+
+
+
+
+
+\begin{table}[htbp]
+  \centering
+  \begin{tabularx}{\textwidth}{|>{\columncolor{black!10}}l|X|}
+    \hline
+    \textbf{Datum} & 02.09.2025 \\
+    \hline
+    \textbf{Teilnehmer intern} & Matthias Gregorich, Daniel Nebel, Viktor Novak, Damjan Petrovic, Marc Schneeweis \\ 
+    \hline
+    \textbf{Teilnehmer extern} & - \\
     \hline
     \textbf{Ort} & HTL Spengergasse \\ 
     \hline
     \textbf{Ziel} &
     \vspace{-0.5em}
     \begin{itemize}
-        \item Ziel des 3. Sprints festlegen
-        \item Tickets für den 3. Sprint besprechen und erstellen
-        \item Vorsitzenden und Protokollführer bestimmen
+        \item Ziel von Sprint 1 definieren
+        \item Tickets/Features definieren 
+        \item Aufgaben zuteilen
     \end{itemize} \\
     \hline
     \textbf{Besprochene Punkte} &
     \vspace{-0.5em}
     \begin{itemize}
-        \item \textbf{Definition des Sprint-Umfangs}
-        \begin{itemize}
-            \item Aufgaben aus dem letzten Sprint abschließen
-            \item ML: Prototyp des Modells
-            \item Business App: Prototyp
-        \end{itemize}
-        \item Aufgaben erstellt und zugewiesen
-        \item Vorsitz: J. Kukacka; Protokoll: L. Kreihsl
+        \item Setup/Struktur von Jira und Github
+        \item Core-Features
+        \item Vorstudie/Technologievergleich
+        \item Hardwareumsetzung
     \end{itemize} \\
     \hline
     \textbf{Nächste Schritte} &
     \vspace{-0.5em}
     \begin{itemize}
-        \item Start des 3. Sprints am 14.10.2024
+        \item Features in User Stories festhalten
+        \item Sprint 1 Start
     \end{itemize} \\
     \hline
   \end{tabularx}
-  \caption{Sprint 3 – Planung}
-  \label{tab:meeting-sprint3}
+  \caption{Meeting Protokoll vom 02.09.2025}
+  \label{tab:meeting-02-09-2025}
 \end{table}
+
+
+
+
+
+
+\begin{table}[htbp]
+  \centering
+  \begin{tabularx}{\textwidth}{|>{\columncolor{black!10}}l|X|}
+    \hline
+    \textbf{Datum} & 05.09.2025 \\
+    \hline
+    \textbf{Teilnehmer intern} & Matthias Gregorich, Daniel Nebel, Viktor Novak, Damjan Petrovic, Marc Schneeweis \\ 
+    \hline
+    \textbf{Teilnehmer extern} & Nada Hasewend, Markus Persson \\
+    \hline
+    \textbf{Ort} & Wiedner Gürtel 13/Turm 24, 1100 Wien/BearingPoint-Büro \\ 
+    \hline
+    \textbf{Ziel} &
+    \vspace{-0.5em}
+    \begin{itemize}
+        \item Gewünschte Features austauschen und finalisieren
+        \item Technologien fixieren
+        \item Zeitplan absprechen
+    \end{itemize} \\
+    \hline
+    \textbf{Besprochene Punkte} &
+    \vspace{-0.5em}
+    \begin{itemize}
+        \item Features
+          \begin{itemize}[label=-,leftmargin=1.2em,nosep,topsep=0pt]
+            \item Raumplanung
+            \item Sensor Mesh Integration
+            \item Push Nachrichten
+            \item Arten der Sensordatenanzeige
+            \item Modulare Erweiterung für neue Sensoren/Räume
+            \item Widgets
+          \end{itemize}
+        \item Freiraum/Einstellungsoptionen der Benutzer
+        \item Technologische Umsetzung
+        \item Kooperationsvertrag
+    \end{itemize} \\
+    \hline
+    \textbf{Nächste Schritte} &
+    \vspace{-0.5em}
+    \begin{itemize}
+        \item Vorstudien beginnen 
+    \end{itemize} \\
+    \hline
+  \end{tabularx}
+  \caption{Meeting Protokoll vom 05.09.2025}
+  \label{tab:meeting-05-09-2025}
+\end{table}
+
+
+
+
+
+
+
+\begin{table}[htbp]
+  \centering
+  \begin{tabularx}{\textwidth}{|>{\columncolor{black!10}}l|X|}
+    \hline
+    \textbf{Datum} & 25.09.2025 \\
+    \hline
+    \textbf{Teilnehmer intern} & Matthias Gregorich, Daniel Nebel, Viktor Novak \\ 
+    \hline
+    \textbf{Teilnehmer extern} & - \\
+    \hline
+    \textbf{Ort} & HTL Spengergasse \\ 
+    \hline
+    \textbf{Ziel} &
+    \vspace{-0.5em}
+    \begin{itemize}
+        \item Kommunikation unter den Schnittstellen und ESPs klären
+        \item Zeitintervall festlegen
+    \end{itemize} \\
+    \hline
+    \textbf{Besprochene Punkte} &
+    \vspace{-0.5em}
+    \begin{itemize}
+        \item Websocketumsetzung
+          \begin{itemize}[label=-,leftmargin=1.2em,nosep,topsep=0pt]
+            \item Echtzeitdatenverkehr
+            \item Zeitintervalle per Endpoint
+          \end{itemize}
+        \item Ausfall von ESPs 
+        \item Datenwiderherstellung
+        \item Raumplandarstellung in Backend und Frontend
+        \item Hinzufügen neuer ESPs in bestehendes oder neues Mesh ("Pairing-Mode")
+    \end{itemize} \\
+    \hline
+    \textbf{Nächste Schritte} &
+    \vspace{-0.5em}
+    \begin{itemize}
+        \item UI Mockups
+        \item Database Struktur
+    \end{itemize} \\
+    \hline
+  \end{tabularx}
+  \caption{Meeting Protokoll vom 25.09.2025}
+  \label{tab:meeting-25-09-2025}
+\end{table}
+
+
+
+
+
+
+\begin{table}[htbp]
+  \centering
+  \begin{tabularx}{\textwidth}{|>{\columncolor{black!10}}l|X|}
+    \hline
+    \textbf{Datum} & 17.10.2025 \\
+    \hline
+    \textbf{Teilnehmer intern} & Matthias Gregorich, Daniel Nebel, Viktor Novak, Marc Schneeweis \\ 
+    \hline
+    \textbf{Teilnehmer extern} & - \\
+    \hline
+    \textbf{Ort} & Discord \\ 
+    \hline
+    \textbf{Ziel} &
+    \vspace{-0.5em}
+    \begin{itemize}
+        \item Dokumentation aufteilen
+        \item Dokumentation Umsetzung
+    \end{itemize} \\
+    \hline
+    \textbf{Besprochene Punkte} &
+    \vspace{-0.5em}
+    \begin{itemize}
+        \item Project Management Report Aufgaben
+        \item Design des Reports
+        \item Zuteilung
+        \item Deadlines der einzelnen Aufgaben
+    \end{itemize} \\
+    \hline
+    \textbf{Nächste Schritte} &
+    \vspace{-0.5em}
+    \begin{itemize}
+        \item Dokumentation bearbeiten
+    \end{itemize} \\
+    \hline
+  \end{tabularx}
+  \caption{Meeting Protokoll vom 17.10.2025}
+  \label{tab:meeting-17-10-2025}
+\end{table}
+
+
+
+
+
 
 
 
