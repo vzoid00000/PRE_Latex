@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.20)  21 OCT 2025 19:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.20)  21 OCT 2025 20:01
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1654,7 +1654,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.35}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1288 ...ectiontitlepage{Requirements Definition}
+l.1288 ...age{Software Requirements Specification}
                                                    [35
 
 ]
@@ -1843,7 +1843,7 @@ ers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Us
 ers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Us
 ers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Us
 ers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (48 pages, 3002688 bytes).
+Output written on main.pdf (48 pages, 3003012 bytes).
 PDF statistics:
  2328 PDF objects out of 2487 (max. 8388607)
  128 named destinations out of 1000 (max. 500000)
