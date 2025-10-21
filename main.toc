@@ -30,5 +30,5 @@
 \contentsline {subsection}{\numberline {3.1}Compliance Guidelines}{14}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Meeting Protocols}{14}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Time Records}{17}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Cooperation Contract}{22}{section*.11}%
-\contentsline {subsection}{\numberline {3.5}Legal Declaration}{23}{section*.12}%
+\contentsline {subsection}{\numberline {3.4}Cooperation Contract}{28}{section*.11}%
+\contentsline {subsection}{\numberline {3.5}Legal Declaration}{29}{section*.12}%
