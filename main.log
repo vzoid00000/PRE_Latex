@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.20)  21 OCT 2025 20:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.20)  21 OCT 2025 22:53
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -920,7 +920,14 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 tex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count342
-) (main.aux)
+) (main.aux
+Package babel Info: 'ngerman' activates 'ngerman' shorthands.
+(babel)             Reported on input line 10.
+
+
+LaTeX Warning: Label `fig:swot-produkt' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
@@ -980,8 +987,6 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package babel Info: 'ngerman' activates 'ngerman' shorthands.
-(babel)             Reported on input line 93.
 LaTeX Info: Redefining \microtypecontext on input line 93.
 Package microtype Info: Applying patch `item' on input line 93.
 Package microtype Info: Applying patch `toc' on input line 93.
@@ -1038,7 +1043,6 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-()
 Package hyperref Info: Link coloring OFF on input line 93.
 <SensorBear_Logo.png, id=6, 562.35094pt x 149.05687pt>
 File: SensorBear_Logo.png Graphic file (type png)
@@ -1094,20 +1098,20 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 Package svg Info: Last page of `./svg-inkscape/DeadlinesTimelineCycle_svg-tex.p
 df' is 1 on input line 119.
  (svg-inkscape/DeadlinesTimelineCycle_svg-tex.pdf_tex
-<./svg-inkscape/DeadlinesTimelineCycle_svg-tex.pdf, id=85, page=1, 900.33655pt 
-x 426.96295pt>
+<./svg-inkscape/DeadlinesTimelineCycle_svg-tex.pdf, id=87, page=1, 1199.32098pt
+ x 565.1523pt>
 File: ./svg-inkscape/DeadlinesTimelineCycle_svg-tex.pdf Graphic file (type pdf)
 
 <use ./svg-inkscape/DeadlinesTimelineCycle_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/DeadlinesTimelineCycle_svg-tex.pdf , pa
 ge1 used on input line 56.
-(pdftex.def)             Requested size: 469.75502pt x 222.77122pt.
+(pdftex.def)             Requested size: 469.75502pt x 221.35709pt.
 )
 Package svg Info: Last page of `./svg-inkscape/BearingPoint_logo_svg-tex.pdf' i
 s 1 on input line 130.
 
 (svg-inkscape/BearingPoint_logo_svg-tex.pdf_tex
-<./svg-inkscape/BearingPoint_logo_svg-tex.pdf, id=87, page=1, 1128.18228pt x 18
+<./svg-inkscape/BearingPoint_logo_svg-tex.pdf, id=89, page=1, 1128.18228pt x 18
 8.20313pt>
 File: ./svg-inkscape/BearingPoint_logo_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/BearingPoint_logo_svg-tex.pdf, page 1>
@@ -1115,10 +1119,10 @@ Package pdftex.def Info: ./svg-inkscape/BearingPoint_logo_svg-tex.pdf , page1 u
 sed on input line 56.
 (pdftex.def)             Requested size: 211.38832pt x 35.26215pt.
 )
-<UI_Mockup_Web.png, id=88, 1508.63625pt x 844.15375pt>
+<UI_Mockup_Web.png, id=90, 1508.63625pt x 844.15375pt>
 File: UI_Mockup_Web.png Graphic file (type png)
 <use UI_Mockup_Web.png>
-Package pdftex.def Info: UI_Mockup_Web.png  used on input line 149.
+Package pdftex.def Info: UI_Mockup_Web.png  used on input line 148.
 (pdftex.def)             Requested size: 469.75502pt x 262.84422pt.
 
 
@@ -1127,7 +1131,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.153 
+l.152 
        [1
 
  <./svg-inkscape/DeadlinesTimelineCycle_svg-tex.pdf> <./svg-inkscape/BearingPoi
@@ -1136,16 +1140,16 @@ nt_logo_svg-tex.pdf
 pdfTeX warning: pdflatex (file ./svg-inkscape/BearingPoint_logo_svg-tex.pdf): P
 DF inclusion: multiple pdfs with page group included in a single page
 >]
-<UI_Mockup_IOS.png, id=209, 239.89626pt x 529.47812pt>
+<UI_Mockup_IOS.png, id=210, 239.89626pt x 529.47812pt>
 File: UI_Mockup_IOS.png Graphic file (type png)
 <use UI_Mockup_IOS.png>
-Package pdftex.def Info: UI_Mockup_IOS.png  used on input line 156.
+Package pdftex.def Info: UI_Mockup_IOS.png  used on input line 155.
 (pdftex.def)             Requested size: 263.43643pt x 581.43399pt.
 
 
 [2 <./UI_Mockup_Web.png>]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-68.
+67.
 
 (C:\Users\vikto\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1153,7 +1157,7 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 [3 <./UI_Mockup_IOS.png>]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-12.
+03.
 
 (C:\Users\vikto\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1165,17 +1169,30 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 [4{C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
-main.tex:286: Undefined control sequence.
-l.286       \item \textbf{Berechnung:} \((\text
-                                               {Anzahl der erfolgreichen Tes...
+
+Underfull \hbox (badness 3838) in paragraph at lines 250--250
+[]|\T1/lmr/m/n/10 (+20) Mockups, Sys-tem-dar-stel-lung,
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 250--250
+[]|\T1/lmr/m/n/10 (+20) Speicherung & Ana-ly-se der
+ []
+
+
+
+[5]
+main.tex:276: Undefined control sequence.
+l.276   \item[Berechnung:] \((\text
+                                   {Anzahl der erfolgreichen Tests}) / (\tex...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-main.tex:286: Undefined control sequence.
-l.286 ...Anzahl der erfolgreichen Tests}) / (\text
+main.tex:276: Undefined control sequence.
+l.276 ...Anzahl der erfolgreichen Tests}) / (\text
                                                   {Anzahl der durchgeführte...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1184,27 +1201,30 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 286.
+LaTeX Warning: Command \" invalid in math mode on input line 276.
 
-
-
-[5]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 315.
-<CPP_logo.png, id=240, 113.004pt x 127.1295pt>
+(Font)              <14.4> on input line 304.
+
+
+[6{C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C
+:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C
+:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
+<CPP_logo.png, id=251, 113.004pt x 127.1295pt>
 File: CPP_logo.png Graphic file (type png)
 <use CPP_logo.png>
-Package pdftex.def Info: CPP_logo.png  used on input line 401.
+Package pdftex.def Info: CPP_logo.png  used on input line 390.
 (pdftex.def)             Requested size: 55.63971pt x 62.59596pt.
-<ESPRESSIF_logo.png, id=241, 113.67468pt x 113.67468pt>
+<ESPRESSIF_logo.png, id=252, 113.67468pt x 113.67468pt>
 File: ESPRESSIF_logo.png Graphic file (type png)
 <use ESPRESSIF_logo.png>
-Package pdftex.def Info: ESPRESSIF_logo.png  used on input line 402.
+Package pdftex.def Info: ESPRESSIF_logo.png  used on input line 391.
 (pdftex.def)             Requested size: 62.59584pt x 62.59596pt.
 Package svg Info: Last page of `./svg-inkscape/CS_logo_svg-tex.pdf' is 1 on inp
-ut line 404.
- (svg-inkscape/CS_logo_svg-tex.pdf_tex
-<./svg-inkscape/CS_logo_svg-tex.pdf, id=243, page=1, 94.28976pt x 110.00473pt>
+ut line 393.
+
+(svg-inkscape/CS_logo_svg-tex.pdf_tex
+<./svg-inkscape/CS_logo_svg-tex.pdf, id=254, page=1, 94.28976pt x 110.00473pt>
 File: ./svg-inkscape/CS_logo_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/CS_logo_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/CS_logo_svg-tex.pdf , page1 used on inp
@@ -1212,10 +1232,10 @@ ut line 56.
 (pdftex.def)             Requested size: 53.6549pt x 62.59758pt.
 )
 Package svg Info: Last page of `./svg-inkscape/ASP_NET_logo_svg-tex.pdf' is 1 o
-n input line 405.
+n input line 394.
 
 (svg-inkscape/ASP_NET_logo_svg-tex.pdf_tex
-<./svg-inkscape/ASP_NET_logo_svg-tex.pdf, id=245, page=1, 108.405pt x 108.405pt
+<./svg-inkscape/ASP_NET_logo_svg-tex.pdf, id=256, page=1, 108.405pt x 108.405pt
 >
 File: ./svg-inkscape/ASP_NET_logo_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/ASP_NET_logo_svg-tex.pdf, page 1>
@@ -1223,46 +1243,42 @@ Package pdftex.def Info: ./svg-inkscape/ASP_NET_logo_svg-tex.pdf , page1 used o
 n input line 56.
 (pdftex.def)             Requested size: 62.59596pt x 62.59703pt.
 )
-<Electron_logo.png, id=246, 237.13594pt x 80.55093pt>
+<Electron_logo.png, id=257, 237.13594pt x 80.55093pt>
 File: Electron_logo.png Graphic file (type png)
 <use Electron_logo.png>
-Package pdftex.def Info: Electron_logo.png  used on input line 407.
+Package pdftex.def Info: Electron_logo.png  used on input line 396.
 (pdftex.def)             Requested size: 85.358pt x 28.99461pt.
-<PostgresSQL_logo.png, id=247, 120.45pt x 119.69719pt>
+<PostgresSQL_logo.png, id=258, 120.45pt x 119.69719pt>
 File: PostgresSQL_logo.png Graphic file (type png)
 <use PostgresSQL_logo.png>
-Package pdftex.def Info: PostgresSQL_logo.png  used on input line 414.
+Package pdftex.def Info: PostgresSQL_logo.png  used on input line 403.
 (pdftex.def)             Requested size: 62.98906pt x 62.59538pt.
-<Timescale_logo.png, id=248, 300.25577pt x 84.93588pt>
+<Timescale_logo.png, id=259, 300.25577pt x 84.93588pt>
 File: Timescale_logo.png Graphic file (type png)
 <use Timescale_logo.png>
-Package pdftex.def Info: Timescale_logo.png  used on input line 416.
+Package pdftex.def Info: Timescale_logo.png  used on input line 405.
 (pdftex.def)             Requested size: 91.0487pt x 25.7557pt.
-<NEXTJS_logo.png, id=249, 102.93pt x 121.107pt>
+<NEXTJS_logo.png, id=260, 102.93pt x 121.107pt>
 File: NEXTJS_logo.png Graphic file (type png)
 <use NEXTJS_logo.png>
-Package pdftex.def Info: NEXTJS_logo.png  used on input line 423.
+Package pdftex.def Info: NEXTJS_logo.png  used on input line 412.
 (pdftex.def)             Requested size: 53.20035pt x 62.5953pt.
-<Material_UI_logo.png, id=250, 148.482pt x 128.772pt>
+<Material_UI_logo.png, id=261, 148.482pt x 128.772pt>
 File: Material_UI_logo.png Graphic file (type png)
 <use Material_UI_logo.png>
-Package pdftex.def Info: Material_UI_logo.png  used on input line 425.
+Package pdftex.def Info: Material_UI_logo.png  used on input line 414.
 (pdftex.def)             Requested size: 72.17679pt x 62.59581pt.
-<Swift_logo.png, id=251, 78.84pt x 109.5pt>
+<Swift_logo.png, id=262, 78.84pt x 109.5pt>
 File: Swift_logo.png Graphic file (type png)
 <use Swift_logo.png>
-Package pdftex.def Info: Swift_logo.png  used on input line 431.
+Package pdftex.def Info: Swift_logo.png  used on input line 420.
 (pdftex.def)             Requested size: 45.07039pt x 62.59776pt.
 
-Overfull \hbox (1.30626pt too wide) in paragraph at lines 432--433
+Overfull \hbox (1.30626pt too wide) in paragraph at lines 421--422
  [][] 
  []
 
 
-
-[6{C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C
-:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C
-:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
 
 [7 <./CPP_logo.png> <./ESPRESSIF_logo.png> <./svg-inkscape/CS_logo_svg-tex.pdf>
  <./svg-inkscape/ASP_NET_logo_svg-tex.pdf
@@ -1271,27 +1287,50 @@ pdfTeX warning: pdflatex (file ./svg-inkscape/ASP_NET_logo_svg-tex.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 > <./Electron_logo.png> <./PostgresSQL_logo.png> <./Timescale_logo.png (PNG cop
 y)> <./NEXTJS_logo.png> <./Material_UI_logo.png> <./Swift_logo.png>]
-<Sprint_Zyklus.png, id=274, 863.225pt x 652.4375pt>
-File: Sprint_Zyklus.png Graphic file (type png)
-<use Sprint_Zyklus.png>
-Package pdftex.def Info: Sprint_Zyklus.png  used on input line 483.
-(pdftex.def)             Requested size: 399.29463pt x 301.78743pt.
-
 
 [8]
-<kanban_board.png, id=279, 1017.04968pt x 791.20593pt>
-File: kanban_board.png Graphic file (type png)
-<use kanban_board.png>
-Package pdftex.def Info: kanban_board.png  used on input line 500.
-(pdftex.def)             Requested size: 469.75502pt x 365.44409pt.
+<Sprint_Zyklus.png, id=281, 863.225pt x 652.4375pt>
+File: Sprint_Zyklus.png Graphic file (type png)
+<use Sprint_Zyklus.png>
+Package pdftex.def Info: Sprint_Zyklus.png  used on input line 474.
+(pdftex.def)             Requested size: 399.29463pt x 301.78743pt.
+<Kanban_Board_1_Sprint.png, id=282, 848.4197pt x 331.99031pt>
+File: Kanban_Board_1_Sprint.png Graphic file (type png)
+<use Kanban_Board_1_Sprint.png>
+Package pdftex.def Info: Kanban_Board_1_Sprint.png  used on input line 493.
+(pdftex.def)             Requested size: 469.75502pt x 183.81607pt.
 
 
 [9 <./Sprint_Zyklus.png (PNG copy)>]
-main.tex:513: Undefined control sequence.
+<Kanban_Board_2_Sprint.png, id=288, 855.94781pt x 526.21594pt>
+File: Kanban_Board_2_Sprint.png Graphic file (type png)
+<use Kanban_Board_2_Sprint.png>
+Package pdftex.def Info: Kanban_Board_2_Sprint.png  used on input line 500.
+(pdftex.def)             Requested size: 469.75502pt x 288.79337pt.
+<Kanban_Board_3_Sprint.png, id=289, 1017.04968pt x 791.20593pt>
+File: Kanban_Board_3_Sprint.png Graphic file (type png)
+<use Kanban_Board_3_Sprint.png>
+Package pdftex.def Info: Kanban_Board_3_Sprint.png  used on input line 507.
+(pdftex.def)             Requested size: 469.75502pt x 365.44409pt.
+
+
+[10 <./Kanban_Board_1_Sprint.png> <./Kanban_Board_2_Sprint.png>]
+
+[11 <./Kanban_Board_3_Sprint.png>]
+main.tex:523: Undefined control sequence.
+l.523     \text
+               {SpilloverRate} =
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+main.tex:525: Undefined control sequence.
 <argument> \text 
-                 {Anzahl der unvollständigen Vorgänge eines Sprints}
-l.513 ...hl der gesamten Vorgänge eines Sprints}}
-                                                   \times 100\
+                 {Anzahl unvollständiger Vorgänge eines Sprints}
+l.525 ...Anzahl gesamter Vorgänge eines Sprints}}
+                                                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1299,16 +1338,16 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 513.
+LaTeX Warning: Command \" invalid in math mode on input line 525.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 513.
+LaTeX Warning: Command \" invalid in math mode on input line 525.
 
-main.tex:513: Undefined control sequence.
+main.tex:525: Undefined control sequence.
 <argument> \text 
-                 {Anzahl der gesamten Vorgänge eines Sprints}
-l.513 ...hl der gesamten Vorgänge eines Sprints}}
-                                                   \times 100\
+                 {Anzahl gesamter Vorgänge eines Sprints}
+l.525 ...Anzahl gesamter Vorgänge eines Sprints}}
+                                                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1316,15 +1355,26 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 513.
+LaTeX Warning: Command \" invalid in math mode on input line 525.
 
+Package svg Info: Last page of `./svg-inkscape/Project_Environment_svg-tex.pdf'
+ is 1 on input line 552.
+(svg-inkscape/Project_Environment_svg-tex.pdf_tex
+<./svg-inkscape/Project_Environment_svg-tex.pdf, id=306, page=1, 896.59969pt x 
+491.15134pt>
+File: ./svg-inkscape/Project_Environment_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Project_Environment_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Project_Environment_svg-tex.pdf , page1
+ used on input line 56.
+(pdftex.def)             Requested size: 469.75502pt x 257.3262pt.
+)
 
-
-[10 <./kanban_board.png>]
+[12 <./svg-inkscape/Project_Environment_svg-tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/Stakeholder_Analysis_svg-tex.pdf
-' is 1 on input line 538.
- (svg-inkscape/Stakeholder_Analysis_svg-tex.pdf_tex
-<./svg-inkscape/Stakeholder_Analysis_svg-tex.pdf, id=297, page=1, 1371.57341pt 
+' is 1 on input line 591.
+
+(svg-inkscape/Stakeholder_Analysis_svg-tex.pdf_tex
+<./svg-inkscape/Stakeholder_Analysis_svg-tex.pdf, id=375, page=1, 1371.57341pt 
 x 578.46584pt>
 File: ./svg-inkscape/Stakeholder_Analysis_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Stakeholder_Analysis_svg-tex.pdf, page 1>
@@ -1333,13 +1383,15 @@ Package pdftex.def Info: ./svg-inkscape/Stakeholder_Analysis_svg-tex.pdf , page
 (pdftex.def)             Requested size: 469.75502pt x 198.11452pt.
 )
 
-[11 <./svg-inkscape/Stakeholder_Analysis_svg-tex.pdf>]
+[13]
 
-[12]
+[14 <./svg-inkscape/Stakeholder_Analysis_svg-tex.pdf>]
+
+[15]
 Package svg Info: Last page of `./svg-inkscape/Project_Health_svg-tex.pdf' is 1
- on input line 615.
+ on input line 673.
  (svg-inkscape/Project_Health_svg-tex.pdf_tex
-<./svg-inkscape/Project_Health_svg-tex.pdf, id=508, page=1, 570.9377pt x 493.61
+<./svg-inkscape/Project_Health_svg-tex.pdf, id=593, page=1, 570.9377pt x 493.61
 6pt>
 File: ./svg-inkscape/Project_Health_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Project_Health_svg-tex.pdf, page 1>
@@ -1348,11 +1400,11 @@ Package pdftex.def Info: ./svg-inkscape/Project_Health_svg-tex.pdf , page1 used
 (pdftex.def)             Requested size: 469.75502pt x 406.15363pt.
 )
 
-[13]
+[16]
 Package svg Info: Last page of `./svg-inkscape/SWOT_Produkt_svg-tex.pdf' is 1 o
-n input line 626.
+n input line 684.
  (svg-inkscape/SWOT_Produkt_svg-tex.pdf_tex
-<./svg-inkscape/SWOT_Produkt_svg-tex.pdf, id=514, page=1, 669.0229pt x 419.8262
+<./svg-inkscape/SWOT_Produkt_svg-tex.pdf, id=599, page=1, 669.0229pt x 419.8262
 5pt>
 File: ./svg-inkscape/SWOT_Produkt_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/SWOT_Produkt_svg-tex.pdf, page 1>
@@ -1361,8 +1413,8 @@ n input line 56.
 (pdftex.def)             Requested size: 469.75502pt x 294.78601pt.
 )
 
-[14 <./svg-inkscape/Project_Health_svg-tex.pdf>]
-Overfull \hbox (38.62624pt too wide) in paragraph at lines 635--636
+[17 <./svg-inkscape/Project_Health_svg-tex.pdf>]
+Overfull \hbox (38.62624pt too wide) in paragraph at lines 693--694
 []\T1/lmr/bx/n/10 (-20) Individuell an-pass-bar: \T1/lmr/m/n/10 (-20) Ver-bun-d
 e-ne Be-nut-ze-rin-nen und Be-nut-zer k�n-nen Grenz-wer-te, Push-Benachrichtigu
 ngen
@@ -1370,12 +1422,12 @@ ngen
 
 
 
-[15 <./svg-inkscape/SWOT_Produkt_svg-tex.pdf>]
+[18 <./svg-inkscape/SWOT_Produkt_svg-tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/SWOT_Team_svg-tex.pdf' is 1 on i
-nput line 663.
+nput line 722.
 
 (svg-inkscape/SWOT_Team_svg-tex.pdf_tex
-<./svg-inkscape/SWOT_Team_svg-tex.pdf, id=1737, page=1, 669.0229pt x 419.82625p
+<./svg-inkscape/SWOT_Team_svg-tex.pdf, id=1823, page=1, 669.0229pt x 419.82625p
 t>
 File: ./svg-inkscape/SWOT_Team_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/SWOT_Team_svg-tex.pdf, page 1>
@@ -1384,96 +1436,93 @@ nput line 56.
 (pdftex.def)             Requested size: 469.75502pt x 294.78601pt.
 )
 
-[16 <./svg-inkscape/SWOT_Team_svg-tex.pdf>]
-<EVA.png, id=1824, 892.2936pt x 411.939pt>
+[19 <./svg-inkscape/SWOT_Team_svg-tex.pdf>]
+<EVA.png, id=1910, 892.2936pt x 411.939pt>
 File: EVA.png Graphic file (type png)
 <use EVA.png>
-Package pdftex.def Info: EVA.png  used on input line 705.
+Package pdftex.def Info: EVA.png  used on input line 765.
 (pdftex.def)             Requested size: 469.75502pt x 216.86833pt.
 
 
-[17 <./EVA.png>]
+[20 <./EVA.png>]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 755.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 789.
 
-
-[18]
-<Team_Zeitdarstellung.png, id=1839, 361.8318pt x 220.6644pt>
-File: Team_Zeitdarstellung.png Graphic file (type png)
-<use Team_Zeitdarstellung.png>
-Package pdftex.def Info: Team_Zeitdarstellung.png  used on input line 1024.
-(pdftex.def)             Requested size: 469.75502pt x 286.49329pt.
-
-
-[19]
-
-[20]
 
 [21]
-<Matthias_Zeitverteilung.png, id=1859, 362.3136pt x 217.7736pt>
+
+[22]
+
+[23]
+<Team_Zeitdarstellung.png, id=1936, 361.8318pt x 220.6644pt>
+File: Team_Zeitdarstellung.png Graphic file (type png)
+<use Team_Zeitdarstellung.png>
+Package pdftex.def Info: Team_Zeitdarstellung.png  used on input line 1058.
+(pdftex.def)             Requested size: 469.75502pt x 286.49329pt.
+<Matthias_Zeitverteilung.png, id=1937, 362.3136pt x 217.7736pt>
 File: Matthias_Zeitverteilung.png Graphic file (type png)
 <use Matthias_Zeitverteilung.png>
-Package pdftex.def Info: Matthias_Zeitverteilung.png  used on input line 1035.
+Package pdftex.def Info: Matthias_Zeitverteilung.png  used on input line 1069.
 (pdftex.def)             Requested size: 469.75502pt x 282.35132pt.
 
 
-[22 <./Team_Zeitdarstellung.png>]
+[24 <./Team_Zeitdarstellung.png>]
 
-[23 <./Matthias_Zeitverteilung.png>]
-<Daniel_Zeitverteilung.png, id=1874, 362.3136pt x 217.7736pt>
+[25 <./Matthias_Zeitverteilung.png>]
+<Daniel_Zeitverteilung.png, id=1952, 362.3136pt x 217.7736pt>
 File: Daniel_Zeitverteilung.png Graphic file (type png)
 <use Daniel_Zeitverteilung.png>
-Package pdftex.def Info: Daniel_Zeitverteilung.png  used on input line 1089.
-(pdftex.def)             Requested size: 469.75502pt x 282.35132pt.
-
-
-[24]
-
-[25 <./Daniel_Zeitverteilung.png>]
-<Viktor_Zeitverteilung.png, id=1887, 362.3136pt x 217.7736pt>
-File: Viktor_Zeitverteilung.png Graphic file (type png)
-<use Viktor_Zeitverteilung.png>
-Package pdftex.def Info: Viktor_Zeitverteilung.png  used on input line 1141.
+Package pdftex.def Info: Daniel_Zeitverteilung.png  used on input line 1123.
 (pdftex.def)             Requested size: 469.75502pt x 282.35132pt.
 
 
 [26]
 
-[27 <./Viktor_Zeitverteilung.png>]
-<Damjan_Zeitverteilung.png, id=1900, 362.3136pt x 217.7736pt>
-File: Damjan_Zeitverteilung.png Graphic file (type png)
-<use Damjan_Zeitverteilung.png>
-Package pdftex.def Info: Damjan_Zeitverteilung.png  used on input line 1190.
+[27 <./Daniel_Zeitverteilung.png>]
+<Viktor_Zeitverteilung.png, id=1965, 362.3136pt x 217.7736pt>
+File: Viktor_Zeitverteilung.png Graphic file (type png)
+<use Viktor_Zeitverteilung.png>
+Package pdftex.def Info: Viktor_Zeitverteilung.png  used on input line 1175.
 (pdftex.def)             Requested size: 469.75502pt x 282.35132pt.
 
 
 [28]
 
-[29 <./Damjan_Zeitverteilung.png>]
-<Marc_Zeitverteilung.png, id=1914, 362.3136pt x 217.7736pt>
-File: Marc_Zeitverteilung.png Graphic file (type png)
-<use Marc_Zeitverteilung.png>
-Package pdftex.def Info: Marc_Zeitverteilung.png  used on input line 1238.
+[29 <./Viktor_Zeitverteilung.png>]
+<Damjan_Zeitverteilung.png, id=1979, 362.3136pt x 217.7736pt>
+File: Damjan_Zeitverteilung.png Graphic file (type png)
+<use Damjan_Zeitverteilung.png>
+Package pdftex.def Info: Damjan_Zeitverteilung.png  used on input line 1224.
 (pdftex.def)             Requested size: 469.75502pt x 282.35132pt.
 
 
 [30]
 
-[31 <./Marc_Zeitverteilung.png>]
+[31 <./Damjan_Zeitverteilung.png>]
+<Marc_Zeitverteilung.png, id=1992, 362.3136pt x 217.7736pt>
+File: Marc_Zeitverteilung.png Graphic file (type png)
+<use Marc_Zeitverteilung.png>
+Package pdftex.def Info: Marc_Zeitverteilung.png  used on input line 1272.
+(pdftex.def)             Requested size: 469.75502pt x 282.35132pt.
+
 
 [32]
 
-[33
+[33 <./Marc_Zeitverteilung.png>]
+
+[34]
+
+[35
 
 ]
 
 pdfTeX warning: pdflatex (file ./Kooperationsvereinbarung_BearingPoint.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Kooperationsvereinbarung_BearingPoint.pdf, id=1937, 597.432pt x 845.07718pt>
+<Kooperationsvereinbarung_BearingPoint.pdf, id=2016, 597.432pt x 845.07718pt>
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf  used on inp
-ut line 1283.
+ut line 1317.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
 
 
@@ -1483,188 +1532,188 @@ F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./Kooperationsvereinbarung_BearingPoint.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Kooperationsvereinbarung_BearingPoint.pdf, id=1939, page=1, 597.432pt x 845.07
+<Kooperationsvereinbarung_BearingPoint.pdf, id=2018, page=1, 597.432pt x 845.07
 718pt>
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 1>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page1 used
- on input line 1283.
+ on input line 1317.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 1>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page1 used
- on input line 1283.
+ on input line 1317.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 1>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page1 used
- on input line 1283.
+ on input line 1317.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 1>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page1 used
- on input line 1283.
+ on input line 1317.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
 
 
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 1>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page1 used
- on input line 1283.
-(pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
-[34
-
-
- <./Kooperationsvereinbarung_BearingPoint.pdf>]
-
-pdfTeX warning: pdflatex (file ./Kooperationsvereinbarung_BearingPoint.pdf): PD
-F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Kooperationsvereinbarung_BearingPoint.pdf, id=1982, page=2, 597.432pt x 845.07
-718pt>
-File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
-<use Kooperationsvereinbarung_BearingPoint.pdf, page 2>
-Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page2 used
- on input line 1283.
-(pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
-File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
-<use Kooperationsvereinbarung_BearingPoint.pdf, page 2>
-Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page2 used
- on input line 1283.
-(pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
-
-
-File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
-<use Kooperationsvereinbarung_BearingPoint.pdf, page 2>
-Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page2 used
- on input line 1283.
-(pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
-[35
-
- <./Kooperationsvereinbarung_BearingPoint.pdf>]
-
-pdfTeX warning: pdflatex (file ./Kooperationsvereinbarung_BearingPoint.pdf): PD
-F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Kooperationsvereinbarung_BearingPoint.pdf, id=1999, page=3, 597.432pt x 845.07
-718pt>
-File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
-<use Kooperationsvereinbarung_BearingPoint.pdf, page 3>
-Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page3 used
- on input line 1283.
-(pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
-File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
-<use Kooperationsvereinbarung_BearingPoint.pdf, page 3>
-Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page3 used
- on input line 1283.
-(pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
-
-
-File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
-<use Kooperationsvereinbarung_BearingPoint.pdf, page 3>
-Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page3 used
- on input line 1283.
+ on input line 1317.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
 [36
 
+
+ <./Kooperationsvereinbarung_BearingPoint.pdf>]
+
+pdfTeX warning: pdflatex (file ./Kooperationsvereinbarung_BearingPoint.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Kooperationsvereinbarung_BearingPoint.pdf, id=2061, page=2, 597.432pt x 845.07
+718pt>
+File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
+<use Kooperationsvereinbarung_BearingPoint.pdf, page 2>
+Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page2 used
+ on input line 1317.
+(pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
+File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
+<use Kooperationsvereinbarung_BearingPoint.pdf, page 2>
+Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page2 used
+ on input line 1317.
+(pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
+
+
+File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
+<use Kooperationsvereinbarung_BearingPoint.pdf, page 2>
+Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page2 used
+ on input line 1317.
+(pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
+[37
+
+ <./Kooperationsvereinbarung_BearingPoint.pdf>]
+
+pdfTeX warning: pdflatex (file ./Kooperationsvereinbarung_BearingPoint.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Kooperationsvereinbarung_BearingPoint.pdf, id=2077, page=3, 597.432pt x 845.07
+718pt>
+File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
+<use Kooperationsvereinbarung_BearingPoint.pdf, page 3>
+Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page3 used
+ on input line 1317.
+(pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
+File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
+<use Kooperationsvereinbarung_BearingPoint.pdf, page 3>
+Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page3 used
+ on input line 1317.
+(pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
+
+
+File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
+<use Kooperationsvereinbarung_BearingPoint.pdf, page 3>
+Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page3 used
+ on input line 1317.
+(pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
+[38
+
  <./Kooperationsvereinbarung_BearingPoint.pdf>]
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.34}) has
+pdfTeX warning (ext4): destination with the same identifier (name{page.36}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1285 \subsectiontitlepage{Legal Declaration}
-                                               [34
+l.1319 \subsectiontitlepage{Legal Declaration}
+                                               [36
 
 ]
-<Rechtliche_Erklaerung.pdf, id=2041, 597.31157pt x 844.83629pt>
+<Rechtliche_Erklaerung.pdf, id=2119, 597.31157pt x 844.83629pt>
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf>
-Package pdftex.def Info: Rechtliche_Erklaerung.pdf  used on input line 1286.
+Package pdftex.def Info: Rechtliche_Erklaerung.pdf  used on input line 1320.
 (pdftex.def)             Requested size: 597.3101pt x 844.83423pt.
-<Rechtliche_Erklaerung.pdf, id=2043, page=1, 597.31157pt x 844.83629pt>
+<Rechtliche_Erklaerung.pdf, id=2121, page=1, 597.31157pt x 844.83629pt>
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 1>
 Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page1 used on input line 1
-286.
+320.
 (pdftex.def)             Requested size: 597.3101pt x 844.83423pt.
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 1>
 Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page1 used on input line 1
-286.
+320.
 (pdftex.def)             Requested size: 597.61998pt x 845.27252pt.
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 1>
 Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page1 used on input line 1
-286.
+320.
 (pdftex.def)             Requested size: 597.61998pt x 845.27252pt.
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 1>
 Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page1 used on input line 1
-286.
+320.
 (pdftex.def)             Requested size: 597.61998pt x 845.27252pt.
 
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.35}) has
+pdfTeX warning (ext4): destination with the same identifier (name{page.37}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1286 ...itpaper=true]{Rechtliche_Erklaerung.pdf}
+l.1320 ...itpaper=true]{Rechtliche_Erklaerung.pdf}
                                                   
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 1>
 Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page1 used on input line 1
-286.
+320.
 (pdftex.def)             Requested size: 597.61998pt x 845.27252pt.
- [35
+ [37
 
 
  <./Rechtliche_Erklaerung.pdf>]
-<Rechtliche_Erklaerung.pdf, id=2050, page=2, 597.31157pt x 844.83629pt>
+<Rechtliche_Erklaerung.pdf, id=2128, page=2, 597.31157pt x 844.83629pt>
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 2>
 Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page2 used on input line 1
-286.
+320.
 (pdftex.def)             Requested size: 597.61998pt x 845.27252pt.
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 2>
 Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page2 used on input line 1
-286.
+320.
 (pdftex.def)             Requested size: 597.61998pt x 845.27252pt.
 
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.36}) has
+pdfTeX warning (ext4): destination with the same identifier (name{page.38}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1286 ...itpaper=true]{Rechtliche_Erklaerung.pdf}
+l.1320 ...itpaper=true]{Rechtliche_Erklaerung.pdf}
                                                   
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 2>
 Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page2 used on input line 1
-286.
+320.
 (pdftex.def)             Requested size: 597.61998pt x 845.27252pt.
- [36
+ [38
 
  <./Rechtliche_Erklaerung.pdf>]
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.35}) has
+pdfTeX warning (ext4): destination with the same identifier (name{page.37}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1288 ...age{Software Requirements Specification}
-                                                   [35
+l.1322 ...age{Software Requirements Specification}
+                                                   [37
 
 ]
 
 pdfTeX warning: pdflatex (file ./Requirements.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Requirements.pdf, id=2060, 597.55246pt x 845.07718pt>
+<Requirements.pdf, id=2139, 597.55246pt x 845.07718pt>
 File: Requirements.pdf Graphic file (type pdf)
 <use Requirements.pdf>
-Package pdftex.def Info: Requirements.pdf  used on input line 1289.
+Package pdftex.def Info: Requirements.pdf  used on input line 1323.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1674,99 +1723,57 @@ rsion <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./Requirements.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Requirements.pdf, id=2062, page=1, 597.55246pt x 845.07718pt>
+<Requirements.pdf, id=2141, page=1, 597.55246pt x 845.07718pt>
 File: Requirements.pdf Graphic file (type pdf)
 <use Requirements.pdf, page 1>
-Package pdftex.def Info: Requirements.pdf , page1 used on input line 1289.
+Package pdftex.def Info: Requirements.pdf , page1 used on input line 1323.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: Requirements.pdf Graphic file (type pdf)
 <use Requirements.pdf, page 1>
-Package pdftex.def Info: Requirements.pdf , page1 used on input line 1289.
+Package pdftex.def Info: Requirements.pdf , page1 used on input line 1323.
 (pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
 File: Requirements.pdf Graphic file (type pdf)
 <use Requirements.pdf, page 1>
-Package pdftex.def Info: Requirements.pdf , page1 used on input line 1289.
+Package pdftex.def Info: Requirements.pdf , page1 used on input line 1323.
 (pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
 File: Requirements.pdf Graphic file (type pdf)
 <use Requirements.pdf, page 1>
-Package pdftex.def Info: Requirements.pdf , page1 used on input line 1289.
+Package pdftex.def Info: Requirements.pdf , page1 used on input line 1323.
 (pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
 
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.36}) has
+pdfTeX warning (ext4): destination with the same identifier (name{page.38}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1289 ...pages=-,fitpaper=true]{Requirements.pdf}
+l.1323 ...pages=-,fitpaper=true]{Requirements.pdf}
                                                   
 File: Requirements.pdf Graphic file (type pdf)
 <use Requirements.pdf, page 1>
-Package pdftex.def Info: Requirements.pdf , page1 used on input line 1289.
+Package pdftex.def Info: Requirements.pdf , page1 used on input line 1323.
 (pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
- [36
+ [38
 
 
  <./Requirements.pdf>]
 
 pdfTeX warning: pdflatex (file ./Requirements.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Requirements.pdf, id=2090, page=2, 597.55246pt x 845.07718pt>
+<Requirements.pdf, id=2168, page=2, 597.55246pt x 845.07718pt>
 File: Requirements.pdf Graphic file (type pdf)
 <use Requirements.pdf, page 2>
-Package pdftex.def Info: Requirements.pdf , page2 used on input line 1289.
+Package pdftex.def Info: Requirements.pdf , page2 used on input line 1323.
 (pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
 File: Requirements.pdf Graphic file (type pdf)
 <use Requirements.pdf, page 2>
-Package pdftex.def Info: Requirements.pdf , page2 used on input line 1289.
+Package pdftex.def Info: Requirements.pdf , page2 used on input line 1323.
 (pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
 
 
 File: Requirements.pdf Graphic file (type pdf)
 <use Requirements.pdf, page 2>
-Package pdftex.def Info: Requirements.pdf , page2 used on input line 1289.
-(pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
-[37
-
- <./Requirements.pdf>]
-
-pdfTeX warning: pdflatex (file ./Requirements.pdf): PDF inclusion: found PDF ve
-rsion <1.7>, but at most version <1.5> allowed
-<Requirements.pdf, id=2111, page=3, 597.55246pt x 845.07718pt>
-File: Requirements.pdf Graphic file (type pdf)
-<use Requirements.pdf, page 3>
-Package pdftex.def Info: Requirements.pdf , page3 used on input line 1289.
-(pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
-File: Requirements.pdf Graphic file (type pdf)
-<use Requirements.pdf, page 3>
-Package pdftex.def Info: Requirements.pdf , page3 used on input line 1289.
-(pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
-
-
-File: Requirements.pdf Graphic file (type pdf)
-<use Requirements.pdf, page 3>
-Package pdftex.def Info: Requirements.pdf , page3 used on input line 1289.
-(pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
-[38
-
- <./Requirements.pdf>]
-
-pdfTeX warning: pdflatex (file ./Requirements.pdf): PDF inclusion: found PDF ve
-rsion <1.7>, but at most version <1.5> allowed
-<Requirements.pdf, id=2124, page=4, 597.55246pt x 845.07718pt>
-File: Requirements.pdf Graphic file (type pdf)
-<use Requirements.pdf, page 4>
-Package pdftex.def Info: Requirements.pdf , page4 used on input line 1289.
-(pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
-File: Requirements.pdf Graphic file (type pdf)
-<use Requirements.pdf, page 4>
-Package pdftex.def Info: Requirements.pdf , page4 used on input line 1289.
-(pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
-
-
-File: Requirements.pdf Graphic file (type pdf)
-<use Requirements.pdf, page 4>
-Package pdftex.def Info: Requirements.pdf , page4 used on input line 1289.
+Package pdftex.def Info: Requirements.pdf , page2 used on input line 1323.
 (pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
 [39
 
@@ -1774,20 +1781,20 @@ Package pdftex.def Info: Requirements.pdf , page4 used on input line 1289.
 
 pdfTeX warning: pdflatex (file ./Requirements.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Requirements.pdf, id=2130, page=5, 597.55246pt x 845.07718pt>
+<Requirements.pdf, id=2189, page=3, 597.55246pt x 845.07718pt>
 File: Requirements.pdf Graphic file (type pdf)
-<use Requirements.pdf, page 5>
-Package pdftex.def Info: Requirements.pdf , page5 used on input line 1289.
+<use Requirements.pdf, page 3>
+Package pdftex.def Info: Requirements.pdf , page3 used on input line 1323.
 (pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
 File: Requirements.pdf Graphic file (type pdf)
-<use Requirements.pdf, page 5>
-Package pdftex.def Info: Requirements.pdf , page5 used on input line 1289.
+<use Requirements.pdf, page 3>
+Package pdftex.def Info: Requirements.pdf , page3 used on input line 1323.
 (pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
 
 
 File: Requirements.pdf Graphic file (type pdf)
-<use Requirements.pdf, page 5>
-Package pdftex.def Info: Requirements.pdf , page5 used on input line 1289.
+<use Requirements.pdf, page 3>
+Package pdftex.def Info: Requirements.pdf , page3 used on input line 1323.
 (pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
 [40
 
@@ -1795,22 +1802,64 @@ Package pdftex.def Info: Requirements.pdf , page5 used on input line 1289.
 
 pdfTeX warning: pdflatex (file ./Requirements.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Requirements.pdf, id=2136, page=6, 597.55246pt x 845.07718pt>
+<Requirements.pdf, id=2202, page=4, 597.55246pt x 845.07718pt>
 File: Requirements.pdf Graphic file (type pdf)
-<use Requirements.pdf, page 6>
-Package pdftex.def Info: Requirements.pdf , page6 used on input line 1289.
+<use Requirements.pdf, page 4>
+Package pdftex.def Info: Requirements.pdf , page4 used on input line 1323.
 (pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
 File: Requirements.pdf Graphic file (type pdf)
-<use Requirements.pdf, page 6>
-Package pdftex.def Info: Requirements.pdf , page6 used on input line 1289.
+<use Requirements.pdf, page 4>
+Package pdftex.def Info: Requirements.pdf , page4 used on input line 1323.
 (pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
 
 
 File: Requirements.pdf Graphic file (type pdf)
-<use Requirements.pdf, page 6>
-Package pdftex.def Info: Requirements.pdf , page6 used on input line 1289.
+<use Requirements.pdf, page 4>
+Package pdftex.def Info: Requirements.pdf , page4 used on input line 1323.
 (pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
 [41
+
+ <./Requirements.pdf>]
+
+pdfTeX warning: pdflatex (file ./Requirements.pdf): PDF inclusion: found PDF ve
+rsion <1.7>, but at most version <1.5> allowed
+<Requirements.pdf, id=2208, page=5, 597.55246pt x 845.07718pt>
+File: Requirements.pdf Graphic file (type pdf)
+<use Requirements.pdf, page 5>
+Package pdftex.def Info: Requirements.pdf , page5 used on input line 1323.
+(pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
+File: Requirements.pdf Graphic file (type pdf)
+<use Requirements.pdf, page 5>
+Package pdftex.def Info: Requirements.pdf , page5 used on input line 1323.
+(pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
+
+
+File: Requirements.pdf Graphic file (type pdf)
+<use Requirements.pdf, page 5>
+Package pdftex.def Info: Requirements.pdf , page5 used on input line 1323.
+(pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
+[42
+
+ <./Requirements.pdf>]
+
+pdfTeX warning: pdflatex (file ./Requirements.pdf): PDF inclusion: found PDF ve
+rsion <1.7>, but at most version <1.5> allowed
+<Requirements.pdf, id=2215, page=6, 597.55246pt x 845.07718pt>
+File: Requirements.pdf Graphic file (type pdf)
+<use Requirements.pdf, page 6>
+Package pdftex.def Info: Requirements.pdf , page6 used on input line 1323.
+(pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
+File: Requirements.pdf Graphic file (type pdf)
+<use Requirements.pdf, page 6>
+Package pdftex.def Info: Requirements.pdf , page6 used on input line 1323.
+(pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
+
+
+File: Requirements.pdf Graphic file (type pdf)
+<use Requirements.pdf, page 6>
+Package pdftex.def Info: Requirements.pdf , page6 used on input line 1323.
+(pdftex.def)             Requested size: 597.59657pt x 845.13959pt.
+[43
 
  <./Requirements.pdf>] (main.aux)
  ***********
@@ -1819,33 +1868,32 @@ L3 programming layer <2025-09-02>
  ***********
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29275 strings out of 468080
- 580106 string characters out of 5425766
- 1055906 words of memory out of 5000000
- 57079 multiletter control sequences out of 15000+600000
- 689758 words of font info for 162 fonts, out of 8000000 for 9000
+ 29310 strings out of 468080
+ 581559 string characters out of 5425766
+ 1055704 words of memory out of 5000000
+ 57110 multiletter control sequences out of 15000+600000
+ 689545 words of font info for 160 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,17n,93p,1003b,971s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
 b><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pf
-b><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb
-><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb>
-<C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><
-C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C
-:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/
-Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Us
-ers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Us
-ers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Us
-ers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Us
-ers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (48 pages, 3003012 bytes).
+b><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb
+><C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
+<C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><
+C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:
+/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/U
+sers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/U
+sers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/U
+sers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/U
+sers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
+Output written on main.pdf (50 pages, 3142883 bytes).
 PDF statistics:
- 2328 PDF objects out of 2487 (max. 8388607)
- 128 named destinations out of 1000 (max. 500000)
- 36358 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 2405 PDF objects out of 2487 (max. 8388607)
+ 136 named destinations out of 1000 (max. 500000)
+ 36386 words of extra memory for PDF output out of 42996 (max. 10000000)
 
