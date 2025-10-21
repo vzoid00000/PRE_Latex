@@ -164,9 +164,101 @@ Betreute Branchen sind u.\,a.\ Finanzdienstleistungen, Automotive/Fertigung, Tel
 
 \subsection{Requirements Definition}
 
+\noindent\textbf{Ausgangslage}
+\begin{itemize}
+  \item Zu hoher CO\textsubscript{2}-Gehalt und zu hohe Temperaturen wirken sich negativ auf den Kreislauf aus. Darauf wird bei BearingPoint geachtet, um das Wohlbefinden der Mitarbeiter zu gewährleisten. Unser Produkt löst dieses Problem durch die Alarmierung bei Werten außerhalb des Normalbereiches, welche auf permanenten Messungen basieren.
+\end{itemize}
+
+\noindent\textbf{Ziele \& Aufgaben}
+\begin{itemize}
+  \item Die Erstellung einer Website, einer nativen Mobile App und einer Desktop Applikation die die Messdaten unseres Sensornetzwerkes so benutzerfreundlich wie möglich, durch Nutzung von nativen Features (z.\,B.: Widgets, Notifications…), darstellen. Dies ermöglicht den Nutzern die Überwachung der Raumumgebung.
+  \item Das Integrieren neuer Sensoren wird benutzerfreundlich umgesetzt.
+  \item Raumdarstellung samt Raumplanung wird intuitiv gestaltet
+\end{itemize}
+
+\noindent\textbf{Funktionelle Anforderungen}
+\begin{itemize}
+  \item Datenspeicherung / Datenvisualisierung von vergangenen und Live-Daten
+  \item Das Frontend bietet dem Endnutzer die Möglichkeit die Daten zu exportieren (json / csv)
+\end{itemize}
+
+
 \subsection{Collaboration Approach}
+\begin{description}
+  \item[Kommunikation:] Für die tägliche Kommunikation und den Austausch von Projektinformationen verwenden wir primär Discord (alternativ WhatsApp). Zusätzlich besprechen wir während jeder Projektentwicklungsstunde gemeinsam die aktuellen Aufgaben, den Fortschritt sowie die nächsten Schritte. Mit dem Partnerunternehmen kommunizieren wir über E-Mail sowie Meetings in ihrem Büro.
+
+  \item[Aufgaben- und Versionsmanagement:] Zur Organisation unserer Aufgaben und User Stories setzen wir ein Kanban-Board in Atlassian Jira ein. Jede Aufgabe wird einem Teammitglied zugewiesen und mit Story Points zur Priorisierung versehen. Die Versionsverwaltung des Source Codes erfolgt über ein GitHub-Repository, in dem neue Features über separate Branches entwickelt und mittels Pull Requests überprüft werden.
+
+  \item[Dokumenten- und Ressourcenverwaltung:] Alle projektrelevanten Dokumente (z.\,B.\ Präsentationen, Berichte, Protokolle, Diagramme usw.) werden in einem gemeinsamen OneDrive-Ordner gespeichert. Dieser ist für alle Teammitglieder zugänglich und strukturiert organisiert, um eine zentrale und übersichtliche Ablage sicherzustellen.
+
+  \item[Meetings und Reviews:] Alle drei Wochen finden Sprint-Meetings statt, in denen der aktuelle Fortschritt evaluiert und die Planung für den kommenden Sprint vorgenommen wird. Meeting-Protokolle werden ebenfalls im OneDrive abgelegt, um eine lückenlose Dokumentation zu gewährleisten.
+
+  \item[Zielsetzung:] Ziel dieses Vorgehens ist es, sicherzustellen, dass alle Teammitglieder stets informiert sind, Aufgaben klar verteilt werden und das Projekt effizient sowie in guter Zusammenarbeit umgesetzt wird.
+\end{description}
+
+
+
 
 \subsection{Resources Stored}
+
+\noindent\textit{Wo und wie Ressourcen gespeichert und für Stakeholder verfügbar sind}\\
+Alle projektbezogenen Ressourcen werden in gemeinsam genutzten, versionierten und leicht zugänglichen Bereichen gespeichert, um Transparenz und eine effiziente Zusammenarbeit zwischen allen Teammitgliedern und Betreuern sicherzustellen.
+
+\begin{enumerate}[left=1.5em,label=\arabic*.]
+  \item \textbf{Code \& Versionsverwaltung}
+  \begin{description}
+    \item[Plattform:] GitHub
+    \item[Inhalt:] Quellcode der ESP32\=/Firmware, der API und des Web\=/Dashboards
+    \item[Zugriff:] Entwicklerteam mit Schreibrechten; Betreuungslehrkraft mit Leserechten (bei Bedarf)
+    \item[Struktur:] Eigene Branches für neue Features, Dokumentationen in \texttt{README}
+  \end{description}
+
+  \item \textbf{Dokumentation \& Berichte}
+  \begin{description}
+    \item[Plattform:] OneDrive (gemeinsamer Projektordner)
+    \item[Inhalt:] Projektdokumentation, Präsentationen, Sitzungsprotokolle, Recherchen und Diagramme
+    \item[Zugriff:] Alle Teammitglieder und der betreuende Lehrer
+  \end{description}
+
+  \item \textbf{Design \& Visualisierungen}
+  \begin{description}
+    \item[Plattform:] Figma
+    \item[Inhalt:] UI\=/Mockups, Systemarchitektur\=/Diagramme und Dashboard\=/Entwürfe
+    \item[Zugriff:] Design\=/ und Entwicklungsteam mit Bearbeitungsrechten
+  \end{description}
+
+  \item \textbf{Sensordaten \& Datenbank}
+  \begin{description}
+    \item[Plattform:] Gehostete Datenbank
+    \item[Inhalt:] Erfasste Messdaten (CO\textsubscript{2}\=/Konzentration, Temperatur, Luftfeuchtigkeit, Lautstärke)
+    \item[Zugriff:] Nur Entwickler und Administratoren; im Dashboard sind die Daten lesbar, aber nicht veränderbar
+  \end{description}
+
+  \item \textbf{Kommunikation \& Koordination}
+  \begin{description}
+    \item[Plattform:] Discord (alternativ WhatsApp)
+    \item[Inhalt:] Tägliche Kommunikation, Aufgabenabstimmung, kurze Statusmeldungen
+    \item[Zugriff:] Nur Projektteam
+  \end{description}
+\end{enumerate}
+
+\paragraph{Übersichtstabelle}
+\begin{table}[H]
+  \centering
+  \begin{tabularx}{\textwidth}{|>{\columncolor{black!10}}l|l|l|X|}
+    \hline
+    \textbf{Ressourcentyp} & \textbf{Plattform} & \textbf{Zugriffsebene} & \textbf{Zweck} \\
+    \hline
+    Quellcode      & GitHub           & Entwickler, Lehrer (Lesen) & Versionskontrolle \& Zusammenarbeit \\ \hline
+    Dokumentation  & OneDrive         & Team + Lehrer               & Berichte, Präsentationen, Protokolle \\ \hline
+    UI \& Architektur & Figma         & Team intern                 & Mockups, Systemdarstellung \\ \hline
+    Sensordaten    & Datenbank        & Entwickler                  & Speicherung \& Analyse der Messdaten \\ \hline
+    Kommunikation  & Discord / Teams  & Team intern                 & Koordination und Abstimmung \\ \hline
+  \end{tabularx}
+  \caption{Übersicht gespeicherter Ressourcen}
+  \label{tab:resources-stored}
+\end{table}
+
 
 
 

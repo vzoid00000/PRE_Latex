@@ -7,30 +7,31 @@
 \contentsline {subsection}{\numberline {1.5}Requirements Definition}{4}{subsection.1.5}%
 \contentsline {subsection}{\numberline {1.6}Collaboration Approach}{4}{subsection.1.6}%
 \contentsline {subsection}{\numberline {1.7}Resources Stored}{4}{subsection.1.7}%
-\contentsline {subsection}{\numberline {1.8}Product KPIs}{4}{subsection.1.8}%
-\contentsline {subsection}{\numberline {1.9}System Architecture}{4}{subsection.1.9}%
-\contentsline {subsection}{\numberline {1.10}Tech Stack}{5}{subsection.1.10}%
-\contentsline {section}{\numberline {2}Project}{6}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Sprints}{6}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Kanban-Board}{7}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Project KPIs}{8}{subsection.2.3}%
-\contentsline {subsubsection}{Spillover-Rate}{8}{section*.2}%
-\contentsline {subsubsection}{Deadline-Verfehlungen}{8}{section*.3}%
-\contentsline {subsubsection}{Teamzufriedenheit}{8}{section*.4}%
-\contentsline {subsection}{\numberline {2.4}Stakeholder Analysis}{9}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Responsibilities}{10}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Project Health Monitors}{12}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}SWOT Analysis}{13}{subsection.2.7}%
-\contentsline {subsubsection}{SWOT — Produkt}{13}{section*.5}%
-\contentsline {subsubsection}{SWOT — Team}{14}{section*.6}%
-\contentsline {subsection}{\numberline {2.8}Earned Value Analysis}{15}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}Project Environment Analysis}{15}{subsection.2.9}%
-\contentsline {subsection}{\numberline {2.10}Ceremonies}{16}{subsection.2.10}%
-\contentsline {subsection}{\numberline {2.11}Version Management Approach}{16}{subsection.2.11}%
-\contentsline {subsubsection}{Branches}{17}{section*.10}%
-\contentsline {section}{\numberline {3}Attachments}{17}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Compliance Guidelines}{17}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Meeting Protocols}{17}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Time Records}{20}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Cooperation Contract}{31}{section*.16}%
-\contentsline {subsection}{\numberline {3.5}Legal Declaration}{32}{section*.17}%
+\contentsline {paragraph}{Übersichtstabelle}{5}{table.1}%
+\contentsline {subsection}{\numberline {1.8}Product KPIs}{5}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}System Architecture}{6}{subsection.1.9}%
+\contentsline {subsection}{\numberline {1.10}Tech Stack}{7}{subsection.1.10}%
+\contentsline {section}{\numberline {2}Project}{8}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Sprints}{8}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Kanban-Board}{9}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Project KPIs}{10}{subsection.2.3}%
+\contentsline {subsubsection}{Spillover-Rate}{10}{section*.3}%
+\contentsline {subsubsection}{Deadline-Verfehlungen}{10}{section*.4}%
+\contentsline {subsubsection}{Teamzufriedenheit}{10}{section*.5}%
+\contentsline {subsection}{\numberline {2.4}Stakeholder Analysis}{11}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Responsibilities}{12}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Project Health Monitors}{14}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}SWOT Analysis}{15}{subsection.2.7}%
+\contentsline {subsubsection}{SWOT — Produkt}{15}{section*.6}%
+\contentsline {subsubsection}{SWOT — Team}{16}{section*.7}%
+\contentsline {subsection}{\numberline {2.8}Earned Value Analysis}{17}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Project Environment Analysis}{17}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Ceremonies}{18}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}Version Management Approach}{18}{subsection.2.11}%
+\contentsline {subsubsection}{Branches}{19}{section*.11}%
+\contentsline {section}{\numberline {3}Attachments}{19}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Compliance Guidelines}{19}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Meeting Protocols}{19}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Time Records}{22}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Cooperation Contract}{33}{section*.17}%
+\contentsline {subsection}{\numberline {3.5}Legal Declaration}{34}{section*.18}%
