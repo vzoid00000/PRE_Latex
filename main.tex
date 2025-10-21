@@ -519,46 +519,17 @@ Die Zuteilung der Verantwortlichkeiten im \textit{SensorBear}-Projekt orientiert
 
 \subsection{Project Health Monitors}
 
-\newcommand{\statuscircle}[2][5pt]{
-
-  \tikz[baseline=-0.6ex]\draw[fill=#2, draw=black, line width=0.3pt] (0,0) circle (#1);%
-}
-\newcommand{\statusempty}[1][5pt]{
-  \tikz[baseline=-0.6ex]\draw[fill=gray!20, draw=black, line width=0.3pt] (0,0) circle (#1);%
-}
-
-\begin{table}[htbp]
+\begin{figure}[H]
   \centering
-  \setlength{\tabcolsep}{10pt}
-  \arrayrulewidth=0.6pt
-  \begin{tabularx}{\textwidth}{|>{\bfseries}l|*{3}{>{\centering\arraybackslash}X}|}
-    \hline
-    \rowcolor{black!10}
-    Attribute & Checkpoint 1 & Checkpoint 2 & Checkpoint 3 \\
-    \hline
-    Teamzusammenarbeit           & \statuscircle{green!60}  & \statusempty & \statusempty \\
-    Ausgewogenes Team            & \statuscircle{green!60}  & \statusempty & \statusempty \\
-    Vielfalt fördern             & \statuscircle{yellow!70} & \statusempty & \statusempty \\
-    Gemeinsames Verständnis      & \statuscircle{yellow!70} & \statusempty & \statusempty \\
-    Werte und Kennzahlen         & \statuscircle{green!60}  & \statusempty & \statusempty \\
-    Geeignete Arbeitsweisen      & \statuscircle{green!60}  & \statusempty & \statusempty \\
-    Engagement und Unterstützung & \statuscircle{yellow!70} & \statusempty & \statusempty \\
-    Kontinuierliche Verbesserung & \statuscircle{yellow!70} & \statusempty & \statusempty \\
-    \hline
-  \end{tabularx}
-  \caption{Project Health Monitor}
-  \label{tab:project-health-monitor}
-\end{table}
-
-
-\noindent 
-Die Tabelle \ref{tab:project-health-monitor} zeigt den \emph{Project Health Monitor} über drei Kontrollpunkte (Checkpoint~1–3) und macht sichtbar, wie gut zentrale Team- und Prozessfaktoren aktuell funktionieren. 
-Jede Zeile beschreibt ein Attribut (z.\,B. Zusammenarbeit, Arbeitsweisen), jede Spalte den Status zum jeweiligen Checkpoint. 
-So lassen sich Trends (verbessert/verschlechtert) über die Zeit schnell erkennen.
+  \includesvg[width=\textwidth]{Project_Health}
+  \caption{Project Health Monitors}
+  \label{fig:project_health_monitors}
+\end{figure}
 
 
 \subsection{SWOT Analysis}
 
+\subsubsection{SWOT — Produkt}
 \begin{figure}[H]
   \centering
   \includesvg[width=\textwidth]{SWOT_Produkt}
@@ -566,8 +537,36 @@ So lassen sich Trends (verbessert/verschlechtert) über die Zeit schnell erkenne
   \label{fig:swot-produkt}
 \end{figure}
 
-Hier text für SWOT-Produkt
+\noindent\textbf{Strengths}
+\begin{itemize}
+  \item \textbf{Individualisiert:} Das Produkt ist auf die Bedürfnisse sowie auf das Bürogebäude von BearingPoint (Wiedner Gürtel~13/Turm~24, 1100~Wien) zugeschnitten.
+  \item \textbf{Einfache modulare Sensorerweiterung:} Für Erweiterungen bestehender oder neuer Räume stehen neue „Plug-and-Play“-Sensoren bereit, die mittels „Pairing Mode“ schnell und unkompliziert konfiguriert werden können.
+  \item \textbf{Individuell anpassbar:} Verbundene Benutzerinnen und Benutzer können Grenzwerte, Push-Benachrichtigungen und das Design nach ihren jeweiligen Anforderungen festlegen.
+  \item \textbf{Intuitives Monitoring:} Optimierte, benutzerfreundliche Visualisierungen der Sensordaten ermöglichen eine übersichtliche und wirksame Überwachung.
+\end{itemize}
 
+\noindent\textbf{Weaknesses}
+\begin{itemize}
+  \item \textbf{Hardwareinstabilität:} Überhitzung an besonders heißen Tagen, Verschmutzung oder Abdeckung der Sensoren können den Datenfluss beeinträchtigen.
+  \item \textbf{Zeitintensive Fertigung neuer Sensoren:} Erweiterungen über die fünf bereitgestellten Messgeräte hinaus erfordern Bestellung zusätzlicher Sensoren und ESP32, das Drucken passender Gehäuse sowie die Konfiguration des zusammengesetzten Messgeräts — ein zeitaufwändiger Prozess.
+\end{itemize}
+
+\noindent\textbf{Opportunities}
+\begin{itemize}
+  \item \textbf{Bessere Luftqualität:} Die CO\textsubscript{2}-Messung und entsprechende Hinweise bei Unter- bzw.\ Überschreitung fördern eine bessere Raumluft.
+  \item \textbf{Bessere Arbeitsatmosphäre:} Empfohlene Grenzwerte — angelehnt an \emph{WHO}-Empfehlungen und Metastudien — unterstützen eine optimale, produktive Arbeitsumgebung.
+  \item \textbf{Ausbau des Produkts:} BearingPoint kann die bereitgestellten Daten und das System als Grundlage für zukünftige Erweiterungen und neue Funktionen nutzen.
+\end{itemize}
+
+\noindent\textbf{Threats}
+\begin{itemize}
+  \item \textbf{Geringe Sensorreichweite:} Bei großen Büroflächen mit niedriger Messgerätedichte kann das Mesh-Netz instabil werden.
+  \item \textbf{Mesh-Interferenzen:} Externe Mesh-Netzwerke, verwinkelte Gebäude oder Stahlbetonwände können zu Störungen im Mesh-Netzwerk führen.
+  \item \textbf{Nur Nahbereichszugriff:} Die Bedienung des Produkts ist auf den Nahbereich des aufgespannten Mesh-Netzwerks beschränkt.
+\end{itemize}
+
+
+\subsubsection{SWOT — Team}
 \begin{figure}[H]
   \centering
   \includesvg[width=\textwidth]{SWOT_Team}
@@ -575,15 +574,81 @@ Hier text für SWOT-Produkt
   \label{fig:swot-team}
 \end{figure}
 
-Hier text für SWOT-Team
+\noindent\textbf{Strengths}
+\begin{itemize}
+  \item \textbf{IoT-Erfahrung:} Alle Teammitglieder verfügen aus der HTL-Spengergasse über zwei Jahre Erfahrung in der IoT-Entwicklung.
+  \item \textbf{Kollaboratives Team:} Benötigt ein Mitglied eine zweite Meinung oder Starthilfe, stehen andere, in diesem Bereich bewanderte, Teammitglieder bereit.
+  \item \textbf{Schnelle Entscheidungsfindung:} Bei offenen Punkten wird ein Meeting einberufen, Vor- und Nachteile werden abgewogen und zeitnah die bestmögliche Entscheidung getroffen.
+\end{itemize}
+
+\noindent\textbf{Weaknesses}
+\begin{itemize}
+  \item \textbf{Begrenzte Praxiserfahrung:} Die Erfahrung an Produktivsystemen beläuft sich bei jedem Teammitglied auf etwa zwei Monate.
+  \item \textbf{Begrenzte Zeitverfügbarkeit:} Durch die laufende Ausbildung an der HTL Spengergasse ist die verfügbare Arbeitszeit eingeschränkt.
+  \item \textbf{Begrenztes Budget/Material:} Begrenzte finanzielle und materielle Ressourcen schränken Investitionen und Skalierung ein.
+\end{itemize}
+
+\noindent\textbf{Opportunities}
+\begin{itemize}
+  \item \textbf{Moderne Technologien:} Mit PostgreSQL, Swift, Next.js etc.\ arbeiten wir mit modernen Technologien, die eine bestmögliche Benutzererfahrung ermöglichen.
+  \item \textbf{Experten-Ratgeber:} Mit Thomas Prikryl (BearingPoint-Entwickler) steht ein erfahrener und kompetenter Ratgeber im Development-Bereich zur Verfügung.
+  \item \textbf{Wachsendes Unternehmensinteresse:} Ein erfolgreiches, zufriedenstellendes Produkt öffnet die Tür für zukünftige Zusammenarbeit.
+\end{itemize}
+
+\noindent\textbf{Threats}
+\begin{itemize}
+  \item \textbf{Abhängigkeit vom Partner:} Für die Installation des Mesh-Netzwerks sind wir auf das Bürogebäude von BearingPoint angewiesen; Büroumstellungen oder ein Umzug können zu Konflikten führen.
+  \item \textbf{Interessenskonflikte mit dem Partner:} Meinungsverschiedenheiten zu Features oder deren Umsetzung können Risiken für den Projektfortschritt darstellen.
+\end{itemize}
+
+
+
+
 
 
 
 \subsection{Earned Value Analysis}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{EVA.png}
+  \caption{Darstellung – Earned Value Analysis}
+  \label{fig:eva}
+\end{figure}
+
+
 \subsection{Project Environment Analysis}
+
+\subsubsection*{Extern}
+\begin{itemize}
+  \item \textbf{Partneranforderungen.} BearingPoint definiert spezifische Anforderungen an das Projekt, z.\,B. den Einsatz bestimmter Sensoren oder technischer Standards. Diese Vorgaben dienen als Grundlage für die technische Umsetzung und werden regelmäßig überprüft, damit die Ergebnisse den Erwartungen des Partners entsprechen.
+  \item \textbf{Technologische Abhängigkeiten.} Das Projekt ist auf bestimmte Technologien, Plattformen und Hardwarekomponenten angewiesen, die teilweise von externen Anbietern stammen. Änderungen oder Lieferverzögerungen dieser Abhängigkeiten können den Projektfortschritt beeinflussen und müssen frühzeitig erkannt und eingeplant werden.
+  \item \textbf{Beschaffung und (Sonder-)Anfertigung von Sensoren und ESP32-Geräten.} Die Beschaffung und gegebenenfalls Sonderanfertigung von Sensoren sowie ESP32-Geräten kann längere Lieferzeiten mit sich bringen. Diese Aspekte sind frühzeitig in der Projektplanung zu berücksichtigen, um Verzögerungen in der Integrations- und Testphase zu vermeiden.
+  \item \textbf{Rechtliche Vorgaben.} Bei der Entwicklung und Nutzung technischer Komponenten sind rechtliche Bestimmungen, insbesondere Urheberrecht und Datenschutz-Grundverordnung (DSGVO), einzuhalten. Dies betrifft sowohl die Nutzung von Softwarebibliotheken als auch den Umgang mit personenbezogenen Daten.
+\end{itemize}
+
+\subsubsection*{Projektbegleitend}
+\begin{itemize}
+  \item \textbf{Dokumentation \& Reporting.} Um Transparenz und Nachvollziehbarkeit zu gewährleisten, wird das Projekt umfassend dokumentiert. Dazu zählen regelmäßige Reports, Protokolle nach Meetings und Fortschrittsberichte, die den Projektverlauf festhalten und Entscheidungen begründen.
+  \item \textbf{Feedback.} Regelmäßiges Feedback von BearingPoint und dem schulischen Projektbegleiter dient der Qualitätssicherung und ermöglicht frühzeitige Anpassungen im Entwicklungsprozess.
+  \item \textbf{Transparenz im Entwicklungsprozess.} Der Fortschritt wird nachvollziehbar über \emph{Jira}, \emph{GitHub} und regelmäßige Reviews dargestellt.
+  \item \textbf{Qualitätsmanagement.} Durch regelmäßige Tests, Code-Reviews und Validierungen wird sichergestellt, dass die Ergebnisse den definierten Anforderungen entsprechen und eine hohe technische sowie funktionale Qualität aufweisen.
+\end{itemize}
+
+\subsubsection*{Intern}
+\begin{itemize}
+  \item \textbf{Wissenstransfer.} Ein kontinuierlicher Austausch von Fachwissen, Ideen und Erfahrungen zwischen den Teammitgliedern unterstützt den Lernprozess und fördert die Effektivität der Zusammenarbeit. So können Auffälligkeiten schnell geklärt werden.
+  \item \textbf{Codequalität.} Der Code wird nach klar definierten Best Practices entwickelt, getestet und dokumentiert. Dies sichert langfristige Wartbarkeit, Stabilität und Nachvollziehbarkeit für zukünftige Projektphasen oder Erweiterungen.
+  \item \textbf{Motivation.} Hohe Eigenmotivation und Verantwortungsbewusstsein sind entscheidend für den Projekterfolg. Eigeninitiative, Engagement und Teamgeist helfen, Herausforderungen gemeinsam zu bewältigen.
+  \item \textbf{Teamkommunikation.} Strukturierte und regelmäßige Kommunikation über digitale Plattformen wie \emph{Discord} oder \emph{Microsoft Teams} ermöglicht effiziente Abstimmung, schnelle Entscheidungen und fördert ein gemeinsames Verständnis im Team.
+\end{itemize}
+
+
+
+
+
 \subsection{Ceremonies}
-Wir haben als Team beschlossen keine zusätzlichen Zeremonien abzuhalten abseits von den vorher erwähnten Sprint Parametern.
-(noch hineinschreiben, was wir tun wenn jemand krank ist)
+Wir haben als Team beschlossen, keine zusätzlichen Zeremonien abzuhalten, abseits der zuvor definierten Sprint-Parameter. Sollte jemand ein Meeting verpassen, informiert die betroffene Person das Team so früh wie möglich (z.B. über Discord oder Whatsapp). Verpasste Informationen werden anschließend im Stand Up oder über das Meeting Protokoll nachgeholt. Wenn eine Person krank ist und ihre zugeteilten Aufgaben nicht abschließen kann, werden diese an Teammitglieder verteilt, die das entsprechende Themengebiet gut beherrschen. Wenn Aufgaben keine Dringlichkeit haben dann werden diese auf den nächsten Sprint verschoben.
 
 
 

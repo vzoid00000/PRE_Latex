@@ -19,16 +19,18 @@
 \contentsline {subsubsection}{Teamzufriedenheit}{8}{section*.4}%
 \contentsline {subsection}{\numberline {2.4}Stakeholder Analysis}{9}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Responsibilities}{10}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Project Health Monitors}{11}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}SWOT Analysis}{12}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}Earned Value Analysis}{13}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}Project Environment Analysis}{13}{subsection.2.9}%
-\contentsline {subsection}{\numberline {2.10}Ceremonies}{13}{subsection.2.10}%
-\contentsline {subsection}{\numberline {2.11}Version Management Approach}{13}{subsection.2.11}%
-\contentsline {subsubsection}{Branches}{13}{section*.5}%
-\contentsline {section}{\numberline {3}Attachments}{14}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Compliance Guidelines}{14}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Meeting Protocols}{14}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Time Records}{17}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Cooperation Contract}{28}{section*.11}%
-\contentsline {subsection}{\numberline {3.5}Legal Declaration}{29}{section*.12}%
+\contentsline {subsection}{\numberline {2.6}Project Health Monitors}{12}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}SWOT Analysis}{13}{subsection.2.7}%
+\contentsline {subsubsection}{SWOT — Produkt}{13}{section*.5}%
+\contentsline {subsubsection}{SWOT — Team}{14}{section*.6}%
+\contentsline {subsection}{\numberline {2.8}Earned Value Analysis}{15}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Project Environment Analysis}{15}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Ceremonies}{16}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}Version Management Approach}{16}{subsection.2.11}%
+\contentsline {subsubsection}{Branches}{17}{section*.10}%
+\contentsline {section}{\numberline {3}Attachments}{17}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Compliance Guidelines}{17}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Meeting Protocols}{17}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Time Records}{20}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Cooperation Contract}{31}{section*.16}%
+\contentsline {subsection}{\numberline {3.5}Legal Declaration}{32}{section*.17}%

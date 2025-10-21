@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.20)  21 OCT 2025 18:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.20)  21 OCT 2025 19:16
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1411,34 +1411,28 @@ as been already used, duplicate ignored
 l.509   \item \textbf
                      {Viktor Novak \textendash{} Qualitätssicherung und Aut...
 ]
+Package svg Info: Last page of `./svg-inkscape/Project_Health_svg-tex.pdf' is 1
+ on input line 524.
+ (svg-inkscape/Project_Health_svg-tex.pdf_tex
+<./svg-inkscape/Project_Health_svg-tex.pdf, id=489, page=1, 570.9377pt x 493.61
+6pt>
+File: ./svg-inkscape/Project_Health_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Project_Health_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Project_Health_svg-tex.pdf , page1 used
+ on input line 56.
+(pdftex.def)             Requested size: 469.75502pt x 406.15363pt.
+)
+
+[11]
 Package svg Info: Last page of `./svg-inkscape/SWOT_Produkt_svg-tex.pdf' is 1 o
-n input line 564.
+n input line 535.
  (svg-inkscape/SWOT_Produkt_svg-tex.pdf_tex
-<./svg-inkscape/SWOT_Produkt_svg-tex.pdf, id=487, page=1, 669.0229pt x 417.5051
-1pt>
+<./svg-inkscape/SWOT_Produkt_svg-tex.pdf, id=496, page=1, 669.0229pt x 419.8262
+5pt>
 File: ./svg-inkscape/SWOT_Produkt_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/SWOT_Produkt_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/SWOT_Produkt_svg-tex.pdf , page1 used o
 n input line 56.
-(pdftex.def)             Requested size: 469.75502pt x 293.1562pt.
-)
-
-[11
-pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
- been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.568 
-      ]
-Package svg Info: Last page of `./svg-inkscape/SWOT_Team_svg-tex.pdf' is 1 on i
-nput line 573.
- (svg-inkscape/SWOT_Team_svg-tex.pdf_tex
-<./svg-inkscape/SWOT_Team_svg-tex.pdf, id=495, page=1, 669.0229pt x 419.82625pt
->
-File: ./svg-inkscape/SWOT_Team_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/SWOT_Team_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/SWOT_Team_svg-tex.pdf , page1 used on i
-nput line 56.
 (pdftex.def)             Requested size: 469.75502pt x 294.78601pt.
 )
 
@@ -1447,20 +1441,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.577 
-       <./svg-inkscape/SWOT_Produkt_svg-tex.pdf>]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
-99.
+l.539 
+       <./svg-inkscape/Project_Health_svg-tex.pdf>]
+Overfull \hbox (38.62624pt too wide) in paragraph at lines 544--545
+[]\T1/lmr/bx/n/10 (-20) Individuell an-pass-bar: \T1/lmr/m/n/10 (-20) Ver-bun-d
+e-ne Be-nut-ze-rin-nen und Be-nut-zer k�n-nen Grenz-wer-te, Push-Benachrichtigu
+ngen
+ []
 
-(C:\Users\vikto\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 599.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 
 
 [13
@@ -1468,180 +1456,232 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.623 
-       <./svg-inkscape/SWOT_Team_svg-tex.pdf>]
-<Team_Zeitdarstellung.png, id=669, 361.8318pt x 220.6644pt>
-File: Team_Zeitdarstellung.png Graphic file (type png)
-<use Team_Zeitdarstellung.png>
-Package pdftex.def Info: Team_Zeitdarstellung.png  used on input line 868.
-(pdftex.def)             Requested size: 469.75502pt x 286.49329pt.
+l.558   \item \textbf
+                     {Ausbau des Produkts:} BearingPoint kann die bereitgest...
+ <./svg-inkscape/SWOT_Produkt_svg-tex.pdf>]
+Package svg Info: Last page of `./svg-inkscape/SWOT_Team_svg-tex.pdf' is 1 on i
+nput line 572.
 
+(svg-inkscape/SWOT_Team_svg-tex.pdf_tex
+<./svg-inkscape/SWOT_Team_svg-tex.pdf, id=1719, page=1, 669.0229pt x 419.82625p
+t>
+File: ./svg-inkscape/SWOT_Team_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/SWOT_Team_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/SWOT_Team_svg-tex.pdf , page1 used on i
+nput line 56.
+(pdftex.def)             Requested size: 469.75502pt x 294.78601pt.
+)
 
 [14
-pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
- been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.872 
-      ]
-
-[15
-pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
- been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.872 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
- been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.872 
-      ]
-
-[16
-pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
- been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.872 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has
- been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.872 
-      ]
-<Matthias_Zeitverteilung.png, id=687, 362.3136pt x 217.7736pt>
-File: Matthias_Zeitverteilung.png Graphic file (type png)
-<use Matthias_Zeitverteilung.png>
-Package pdftex.def Info: Matthias_Zeitverteilung.png  used on input line 879.
-(pdftex.def)             Requested size: 469.75502pt x 282.35132pt.
-
-
-[17
 pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.883 
-       <./Team_Zeitdarstellung.png>]
+l.587   \item \textbf
+                     {Begrenzte Zeitverfügbarkeit:} Durch die laufende Ausb...
+ <./svg-inkscape/SWOT_Team_svg-tex.pdf>]
+<EVA.png, id=1806, 892.2936pt x 411.939pt>
+File: EVA.png Graphic file (type png)
+<use EVA.png>
+Package pdftex.def Info: EVA.png  used on input line 614.
+(pdftex.def)             Requested size: 469.75502pt x 216.86833pt.
 
-[18
+
+[15
 pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.926 
-       <./Matthias_Zeitverteilung.png>]
-<Daniel_Zeitverteilung.png, id=702, 362.3136pt x 217.7736pt>
-File: Daniel_Zeitverteilung.png Graphic file (type png)
-<use Daniel_Zeitverteilung.png>
-Package pdftex.def Info: Daniel_Zeitverteilung.png  used on input line 933.
-(pdftex.def)             Requested size: 469.75502pt x 282.35132pt.
+l.626   \item \textbf
+                     {Beschaffung und (Sonder-)Anfertigung von Sensoren und ...
+ <./EVA.png>]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
+64.
+
+(C:\Users\vikto\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 664.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
 
-[19
-pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has
+[16]
+<Team_Zeitdarstellung.png, id=1820, 361.8318pt x 220.6644pt>
+File: Team_Zeitdarstellung.png Graphic file (type png)
+<use Team_Zeitdarstellung.png>
+Package pdftex.def Info: Team_Zeitdarstellung.png  used on input line 933.
+(pdftex.def)             Requested size: 469.75502pt x 286.49329pt.
+
+
+[17
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.937 
       ]
 
+[18
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.937 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.937 
+      ]
+
+[19
+pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.937 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.937 
+      ]
+<Matthias_Zeitverteilung.png, id=1842, 362.3136pt x 217.7736pt>
+File: Matthias_Zeitverteilung.png Graphic file (type png)
+<use Matthias_Zeitverteilung.png>
+Package pdftex.def Info: Matthias_Zeitverteilung.png  used on input line 944.
+(pdftex.def)             Requested size: 469.75502pt x 282.35132pt.
+
+
 [20
 pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.979 
-       <./Daniel_Zeitverteilung.png>]
-<Viktor_Zeitverteilung.png, id=715, 362.3136pt x 217.7736pt>
-File: Viktor_Zeitverteilung.png Graphic file (type png)
-<use Viktor_Zeitverteilung.png>
-Package pdftex.def Info: Viktor_Zeitverteilung.png  used on input line 985.
-(pdftex.def)             Requested size: 469.75502pt x 282.35132pt.
-
+l.948 
+       <./Team_Zeitdarstellung.png>]
 
 [21
-pdfTeX warning (ext4): destination with the same identifier (name{table.8}) has
- been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.989 
-      ]
-
-[22
 pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1028 
-        <./Viktor_Zeitverteilung.png>]
-<Damjan_Zeitverteilung.png, id=728, 362.3136pt x 217.7736pt>
-File: Damjan_Zeitverteilung.png Graphic file (type png)
-<use Damjan_Zeitverteilung.png>
-Package pdftex.def Info: Damjan_Zeitverteilung.png  used on input line 1034.
+l.991 
+       <./Matthias_Zeitverteilung.png>]
+<Daniel_Zeitverteilung.png, id=1856, 362.3136pt x 217.7736pt>
+File: Daniel_Zeitverteilung.png Graphic file (type png)
+<use Daniel_Zeitverteilung.png>
+Package pdftex.def Info: Daniel_Zeitverteilung.png  used on input line 998.
 (pdftex.def)             Requested size: 469.75502pt x 282.35132pt.
 
 
-[23
-pdfTeX warning (ext4): destination with the same identifier (name{table.9}) has
+[22
+pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1038 
+l.1002 
        ]
 
-[24
+[23
 pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1076 
-        <./Damjan_Zeitverteilung.png>]
-<Marc_Zeitverteilung.png, id=742, 362.3136pt x 217.7736pt>
-File: Marc_Zeitverteilung.png Graphic file (type png)
-<use Marc_Zeitverteilung.png>
-Package pdftex.def Info: Marc_Zeitverteilung.png  used on input line 1082.
+l.1044 
+        <./Daniel_Zeitverteilung.png>]
+<Viktor_Zeitverteilung.png, id=1870, 362.3136pt x 217.7736pt>
+File: Viktor_Zeitverteilung.png Graphic file (type png)
+<use Viktor_Zeitverteilung.png>
+Package pdftex.def Info: Viktor_Zeitverteilung.png  used on input line 1050.
 (pdftex.def)             Requested size: 469.75502pt x 282.35132pt.
 
 
-[25
-pdfTeX warning (ext4): destination with the same identifier (name{table.10}) ha
-s been already used, duplicate ignored
+[24
+pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has
+ been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1086 
+l.1054 
        ]
 
-[26
+[25
 pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1123 
-        <./Marc_Zeitverteilung.png>]
+l.1093 
+        <./Viktor_Zeitverteilung.png>]
+<Damjan_Zeitverteilung.png, id=1883, 362.3136pt x 217.7736pt>
+File: Damjan_Zeitverteilung.png Graphic file (type png)
+<use Damjan_Zeitverteilung.png>
+Package pdftex.def Info: Damjan_Zeitverteilung.png  used on input line 1099.
+(pdftex.def)             Requested size: 469.75502pt x 282.35132pt.
+
+
+[26
+pdfTeX warning (ext4): destination with the same identifier (name{table.8}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1103 
+       ]
 
 [27
-pdfTeX warning (ext4): destination with the same identifier (name{table.11}) ha
+pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1141 
+        <./Damjan_Zeitverteilung.png>]
+<Marc_Zeitverteilung.png, id=1896, 362.3136pt x 217.7736pt>
+File: Marc_Zeitverteilung.png Graphic file (type png)
+<use Marc_Zeitverteilung.png>
+Package pdftex.def Info: Marc_Zeitverteilung.png  used on input line 1147.
+(pdftex.def)             Requested size: 469.75502pt x 282.35132pt.
+
+
+[28
+pdfTeX warning (ext4): destination with the same identifier (name{table.9}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1151 
+       ]
+
+[29
+pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1188 
+        <./Marc_Zeitverteilung.png>]
+
+[30
+pdfTeX warning (ext4): destination with the same identifier (name{table.10}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1126 \subsectiontitlepage{Cooperation Contract}
+l.1191 \subsectiontitlepage{Cooperation Contract}
                                                  ]
 
-[28
+[31
 
 ]
 
 pdfTeX warning: pdflatex (file ./Kooperationsvereinbarung_BearingPoint.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Kooperationsvereinbarung_BearingPoint.pdf, id=765, 597.432pt x 845.07718pt>
+<Kooperationsvereinbarung_BearingPoint.pdf, id=1920, 597.432pt x 845.07718pt>
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf  used on inp
-ut line 1127.
+ut line 1192.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
 
 
@@ -1651,169 +1691,169 @@ F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./Kooperationsvereinbarung_BearingPoint.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Kooperationsvereinbarung_BearingPoint.pdf, id=767, page=1, 597.432pt x 845.077
-18pt>
+<Kooperationsvereinbarung_BearingPoint.pdf, id=1922, page=1, 597.432pt x 845.07
+718pt>
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 1>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page1 used
- on input line 1127.
+ on input line 1192.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 1>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page1 used
- on input line 1127.
+ on input line 1192.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 1>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page1 used
- on input line 1127.
+ on input line 1192.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 1>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page1 used
- on input line 1127.
+ on input line 1192.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
 
 
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 1>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page1 used
- on input line 1127.
+ on input line 1192.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
-[29
+[32
 
 
  <./Kooperationsvereinbarung_BearingPoint.pdf>]
 
 pdfTeX warning: pdflatex (file ./Kooperationsvereinbarung_BearingPoint.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Kooperationsvereinbarung_BearingPoint.pdf, id=811, page=2, 597.432pt x 845.077
-18pt>
+<Kooperationsvereinbarung_BearingPoint.pdf, id=1965, page=2, 597.432pt x 845.07
+718pt>
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 2>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page2 used
- on input line 1127.
+ on input line 1192.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 2>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page2 used
- on input line 1127.
+ on input line 1192.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
 
 
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 2>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page2 used
- on input line 1127.
+ on input line 1192.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
-[30
+[33
 
  <./Kooperationsvereinbarung_BearingPoint.pdf>]
 
 pdfTeX warning: pdflatex (file ./Kooperationsvereinbarung_BearingPoint.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Kooperationsvereinbarung_BearingPoint.pdf, id=827, page=3, 597.432pt x 845.077
-18pt>
+<Kooperationsvereinbarung_BearingPoint.pdf, id=1981, page=3, 597.432pt x 845.07
+718pt>
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 3>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page3 used
- on input line 1127.
+ on input line 1192.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 3>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page3 used
- on input line 1127.
+ on input line 1192.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
 
 
 File: Kooperationsvereinbarung_BearingPoint.pdf Graphic file (type pdf)
 <use Kooperationsvereinbarung_BearingPoint.pdf, page 3>
 Package pdftex.def Info: Kooperationsvereinbarung_BearingPoint.pdf , page3 used
- on input line 1127.
+ on input line 1192.
 (pdftex.def)             Requested size: 597.47612pt x 845.13959pt.
-[31
+[34
 
  <./Kooperationsvereinbarung_BearingPoint.pdf>]
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.29}) has
+pdfTeX warning (ext4): destination with the same identifier (name{page.32}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1129 \subsectiontitlepage{Legal Declaration}
-                                               [29
+l.1194 \subsectiontitlepage{Legal Declaration}
+                                               [32
 
 ]
-<Rechtliche_Erklaerung.pdf, id=869, 597.31157pt x 844.83629pt>
+<Rechtliche_Erklaerung.pdf, id=2024, 597.31157pt x 844.83629pt>
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf>
-Package pdftex.def Info: Rechtliche_Erklaerung.pdf  used on input line 1130.
+Package pdftex.def Info: Rechtliche_Erklaerung.pdf  used on input line 1195.
 (pdftex.def)             Requested size: 597.3101pt x 844.83423pt.
-<Rechtliche_Erklaerung.pdf, id=871, page=1, 597.31157pt x 844.83629pt>
+<Rechtliche_Erklaerung.pdf, id=2026, page=1, 597.31157pt x 844.83629pt>
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 1>
 Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page1 used on input line 1
-130.
+195.
 (pdftex.def)             Requested size: 597.3101pt x 844.83423pt.
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 1>
 Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page1 used on input line 1
-130.
+195.
 (pdftex.def)             Requested size: 597.61998pt x 845.27252pt.
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 1>
 Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page1 used on input line 1
-130.
+195.
 (pdftex.def)             Requested size: 597.61998pt x 845.27252pt.
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 1>
 Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page1 used on input line 1
-130.
+195.
 (pdftex.def)             Requested size: 597.61998pt x 845.27252pt.
 
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.30}) has
+pdfTeX warning (ext4): destination with the same identifier (name{page.33}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1130 ...itpaper=true]{Rechtliche_Erklaerung.pdf}
+l.1195 ...itpaper=true]{Rechtliche_Erklaerung.pdf}
                                                   
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 1>
 Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page1 used on input line 1
-130.
+195.
 (pdftex.def)             Requested size: 597.61998pt x 845.27252pt.
- [30
+ [33
 
 
  <./Rechtliche_Erklaerung.pdf>]
-<Rechtliche_Erklaerung.pdf, id=878, page=2, 597.31157pt x 844.83629pt>
+<Rechtliche_Erklaerung.pdf, id=2033, page=2, 597.31157pt x 844.83629pt>
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 2>
 Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page2 used on input line 1
-130.
+195.
 (pdftex.def)             Requested size: 597.61998pt x 845.27252pt.
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 2>
 Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page2 used on input line 1
-130.
+195.
 (pdftex.def)             Requested size: 597.61998pt x 845.27252pt.
 
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.31}) has
+pdfTeX warning (ext4): destination with the same identifier (name{page.34}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1130 ...itpaper=true]{Rechtliche_Erklaerung.pdf}
+l.1195 ...itpaper=true]{Rechtliche_Erklaerung.pdf}
                                                   
 File: Rechtliche_Erklaerung.pdf Graphic file (type pdf)
 <use Rechtliche_Erklaerung.pdf, page 2>
 Package pdftex.def Info: Rechtliche_Erklaerung.pdf , page2 used on input line 1
-130.
+195.
 (pdftex.def)             Requested size: 597.61998pt x 845.27252pt.
- [31
+ [34
 
  <./Rechtliche_Erklaerung.pdf>] (main.aux)
  ***********
@@ -1826,11 +1866,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29166 strings out of 468080
- 577779 string characters out of 5425766
- 1051326 words of memory out of 5000000
- 57030 multiletter control sequences out of 15000+600000
- 688403 words of font info for 148 fonts, out of 8000000 for 9000
+ 29215 strings out of 468080
+ 578885 string characters out of 5425766
+ 1052952 words of memory out of 5000000
+ 57041 multiletter control sequences out of 15000+600000
+ 689675 words of font info for 161 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,17n,93p,1003b,971s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
@@ -1846,9 +1886,9 @@ ers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Us
 ers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Us
 ers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Us
 ers/vikto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (36 pages, 2556981 bytes).
+Output written on main.pdf (39 pages, 2872025 bytes).
 PDF statistics:
- 1060 PDF objects out of 1200 (max. 8388607)
- 103 named destinations out of 1000 (max. 500000)
- 36295 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 2219 PDF objects out of 2487 (max. 8388607)
+ 112 named destinations out of 1000 (max. 500000)
+ 36310 words of extra memory for PDF output out of 42996 (max. 10000000)
 
